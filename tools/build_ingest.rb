@@ -71,7 +71,7 @@ def pubid_canonicals(docid_list, flavor)
 end
 
 repo = "relaton/relaton-data-#{options[:flavor]}"
-files = %w[data static].flat_map { |d| Dir[File.join(options[:repo], d, "**", "*.yaml")] }.sort
+files = %w[data static].flat_map { |d| Dir[File.join(options[:repo], d, "**", "*.{yaml,xml}")] }.sort
 files = files.first(options[:limit]) if options[:limit]
 abort "no yaml files under #{options[:repo]}/{data,static}" if files.empty?
 
@@ -91,8 +91,10 @@ end
 
 # Old-schema (v1.2.x) docs go through the gem's own v1 hash parser.
 # Docs whose prefix no flavor processor claims use the generic Bib model.
-def xml_for(doc, text, processor)
-  if doc["docid"]
+def xml_for(doc, text, processor, path)
+  if path.end_with?(".xml")
+    processor.from_xml(text).to_xml(bibdata: true)
+  elsif doc["docid"]
     bib_hash = Relaton::Bib::HashParserV1.hash_to_bib(doc)
     Relaton::Bib::ItemData.new(**bib_hash).to_xml(bibdata: true)
   elsif processor
@@ -103,17 +105,33 @@ def xml_for(doc, text, processor)
   end
 end
 
+# Extracts index metadata from IETF bibxml (<reference>) files.
+def ietf_xml_meta(text)
+  anchor = text[/anchor=['"]([^'"]+)['"]/, 1]
+  series = text[/seriesInfo\s+name=['"](?:RFC|BCP|STD|FYI)['"]\s+value=['"]([^'"]+)['"]/i, 1] ||
+           text[/seriesInfo\s+value=['"]([^'"]+)['"]\s+name=['"](?:RFC|BCP|STD|FYI)['"]/i, 1]
+  name = text[/seriesInfo\s+name=['"](RFC|BCP|STD|FYI)['"]/i, 1]
+  value = series || (anchor&.split(".")&.first)
+  docid = name && value ? "#{name.upcase} #{value}" : anchor.to_s
+  {
+    "docidentifier" => [{ "content" => docid.empty? ? nil : docid, "type" => "IETF", "primary" => true }],
+    "title" => [{ "content" => text[/<title[^>]*>([^<]+)<\/title>/m, 1]&.strip, "type" => "main" }],
+    "date" => [{ "type" => "published", "at" => text[/<date[^>]*\syear=['"](\d{4})['"]/i, 1] }],
+    "type" => "standard",
+  }
+end
+
 rows = []
 blobs = {}
 errors = 0
 
 files.each_with_index do |path, idx|
   rel = path.delete_prefix("#{options[:repo]}/")
-  r2_key = "#{options[:flavor]}/#{File.join(File.dirname(rel), File.basename(rel, ".yaml"))}"
+  r2_key = "#{options[:flavor]}/#{File.join(File.dirname(rel), File.basename(rel, ".*"))}"
 
   begin
     text = File.read(path, encoding: "UTF-8")
-    doc = YAML.safe_load(text, aliases: true) || {}
+    doc = path.end_with?(".xml") ? ietf_xml_meta(text) : (YAML.safe_load(text, aliases: true) || {})
   rescue StandardError => e
     warn "  [skip] #{rel}: #{e.class}: #{e.message}"
     errors += 1
@@ -128,7 +146,7 @@ files.each_with_index do |path, idx|
 
   begin
     processor = registry.processor_by_ref(primary["content"].to_s)
-    xml = xml_for(doc, text, processor)
+    xml = xml_for(doc, text, processor, path)
   rescue StandardError => e
     warn "  [skip] #{rel}: #{e.class}: #{e.message}"
     errors += 1

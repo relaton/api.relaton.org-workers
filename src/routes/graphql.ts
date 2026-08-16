@@ -160,7 +160,12 @@ const resolvers = {
 
     flavors: async (_p: unknown, _a: unknown, ctx: GqlContext) => {
       const { results } = await ctx.env.DB.prepare(
-        "SELECT flavor, repo, doc_count AS docCount, last_modified AS lastModified, ingested_at AS ingestedAt FROM flavors ORDER BY flavor",
+        `SELECT d.flavor,
+                COUNT(*) AS docCount,
+                MAX(f.ingested_at) AS ingestedAt,
+                MIN(f.repo) AS repo
+         FROM documents AS d LEFT JOIN flavors AS f ON f.flavor = d.flavor
+         GROUP BY d.flavor ORDER BY d.flavor`,
       ).all();
       return results ?? [];
     },
