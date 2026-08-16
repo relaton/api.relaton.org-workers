@@ -1,0 +1,50 @@
+[
+  [
+    "ISO/R 657/IV",
+    "ISO/R 657-4:1969"
+  ],
+  [
+    "ISO/IEC/IEEE 8802-22.2:2015/Amd.2:2017(E)",
+    "ISO/IEC/IEEE 8802-22:2015/Amd.2:2017(E)"
+  ],
+  [
+    "ISO/TR 17716.2",
+    "ISO/TR 17716"
+  ],
+  [
+    "ISO/TR 17716.2(E)",
+    "ISO/TR 17716(E)"
+  ],
+  [
+    "/^(ISO[\\w/]*) DIS (TR|TS|PAS|ISP) /",
+    "$1 D$2 "
+  ],
+  [
+    "/^(ISO[\\w/]*) FDIS (TR|TS|PAS|ISP) /",
+    "$1 FD$2 "
+  ],
+  [
+    "//DIS Amd /",
+    "/DAM "
+  ],
+  [
+    "//FDIS Amd /",
+    "/FDAM "
+  ],
+  [
+    "//DIS Cor /",
+    "/DCOR "
+  ],
+  [
+    "//FDIS Cor /",
+    "/FDCOR "
+  ],
+  [
+    "//DIS Suppl /",
+    "/DSuppl "
+  ],
+  [
+    "//DIS Add /",
+    "/DAD "
+  ]
+]

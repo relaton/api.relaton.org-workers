@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+if (local = ENV["RELATON_GEM"])
+  gem "relaton", path: local
+else
+  gem "relaton", "~> 2.1"
+end
+
+if (local = ENV["PUBID_GEM"])
+  gem "pubid", path: local
+else
+  gem "pubid"
+end

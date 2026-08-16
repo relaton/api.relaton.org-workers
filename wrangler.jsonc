@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "api-relaton-org",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-01",
+  "workers_dev": true,
+  "vars": {
+    "API_VERSION": "3.0.0"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "api-relaton-org",
+      "database_id": "c7c620c7-b102-4f85-9a8c-66c0fd3db246"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "relaton-api-data"
+    }
+  ],
+  "triggers": {
+    "crons": ["0 */6 * * *"]
+  }
+}

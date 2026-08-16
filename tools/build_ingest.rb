@@ -1,0 +1,191 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Builds ingest chunks for one relaton-data-* checkout:
+#   out/<flavor>/chunk-NNNN.json = { flavor, repo, final, rows: [...], blobs: { r2_key => xml } }
+# Post them with tools/post_chunks.sh.
+
+require "optparse"
+require "fileutils"
+require "json"
+require "yaml"
+
+options = { chunk_size: 100 }
+OptionParser.new do |o|
+  o.banner = "Usage: build_ingest.rb -r REPO -f FLAVOR [-o OUT_DIR] [-l LIMIT] [-c CHUNK_SIZE]"
+  o.on("-r REPO", "--repo REPO", "path to relaton-data-* checkout")
+  o.on("-f FLAVOR", "--flavor FLAVOR", "flavor short name, e.g. iso")
+  o.on("-o DIR", "--out DIR", "output directory (default: out/<flavor>)")
+  o.on("-l N", "--limit N", Integer, "process at most N documents")
+  o.on("-c N", "--chunk-size N", Integer, "documents per chunk (default 100)")
+end.parse!(into: options)
+
+abort "--repo is required" unless options[:repo]
+abort "--flavor is required" unless options[:flavor]
+
+out_dir = options[:out] || File.join("out", options[:flavor])
+FileUtils.mkdir_p(out_dir)
+
+require "relaton"
+require "relaton/bib/hash_parser_v1"
+require "relaton/bib/item_data"
+require "pubid"
+require_relative "normalize"
+
+registry = Relaton::Db::Registry.instance
+
+# Flavors with a PubID grammar; canonical renders add lookup variants that
+# absorb update_codes.yaml normalizations (e.g. "ISO/IEC Directives Part 1" →
+# "ISO/IEC DIR 1").
+PUBID_FLAVORS = {
+  "iso" => :Iso, "iec" => :Iec, "ieee" => :Ieee, "itu" => :Itu,
+  "nist" => :Nist, "iho" => :Iho, "bsi" => :Bsi, "jis" => :Jis,
+  "ccsds" => :Ccsds, "etsi" => :Etsi, "plateau" => :Plateau,
+}.freeze
+
+def pubid_module(flavor)
+  mod_name = PUBID_FLAVORS[flavor]
+  return nil unless mod_name
+
+  require "pubid/#{flavor}"
+  Pubid.const_get(mod_name, false)
+rescue LoadError, NameError
+  nil
+end
+
+def pubid_canonicals(docid_list, flavor)
+  mod = pubid_module(flavor)
+  return [] unless mod
+
+  docid_list.filter_map do |d|
+    next if d["type"] == "URN"
+
+    id = begin
+      mod.parse(d["content"].to_s)
+    rescue StandardError
+      next
+    end
+    canonical = id.to_s
+    canonical unless canonical.nil? || canonical.empty?
+  end.uniq
+end
+
+repo = "relaton/relaton-data-#{options[:flavor]}"
+files = %w[data static].flat_map { |d| Dir[File.join(options[:repo], d, "**", "*.yaml")] }.sort
+files = files.first(options[:limit]) if options[:limit]
+abort "no yaml files under #{options[:repo]}/{data,static}" if files.empty?
+
+last_modified =
+  begin
+    File.read(File.join(options[:repo], "last_modified.txt")).strip
+  rescue StandardError
+    nil
+  end
+
+def extract_status(status)
+  case status
+  when String then status
+  when Hash then status["stage"].is_a?(Hash) ? status["stage"]["value"] : status["stage"]
+  end
+end
+
+# Old-schema (v1.2.x) docs go through the gem's own v1 hash parser.
+# Docs whose prefix no flavor processor claims use the generic Bib model.
+def xml_for(doc, text, processor)
+  if doc["docid"]
+    bib_hash = Relaton::Bib::HashParserV1.hash_to_bib(doc)
+    Relaton::Bib::ItemData.new(**bib_hash).to_xml(bibdata: true)
+  elsif processor
+    processor.from_yaml(text).to_xml(bibdata: true)
+  else
+    require "relaton/bib/model/item"
+    Relaton::Bib::Item.from_yaml(text).to_xml(bibdata: true)
+  end
+end
+
+rows = []
+blobs = {}
+errors = 0
+
+files.each_with_index do |path, idx|
+  rel = path.delete_prefix("#{options[:repo]}/")
+  r2_key = "#{options[:flavor]}/#{File.join(File.dirname(rel), File.basename(rel, ".yaml"))}"
+
+  begin
+    text = File.read(path, encoding: "UTF-8")
+    doc = YAML.safe_load(text, aliases: true) || {}
+  rescue StandardError => e
+    warn "  [skip] #{rel}: #{e.class}: #{e.message}"
+    errors += 1
+    next
+  end
+
+  # Newer schema (v1.5+): docidentifier[]/{content,type}; older (v1.2): docid[]/{id,type}
+  docid_list = (doc["docidentifier"] || doc["docid"] || []).map do |d|
+    { "content" => d["content"] || d["id"], "type" => d["type"], "primary" => d["primary"] }
+  end
+  primary = docid_list.find { |d| d["primary"] } || docid_list.first || {}
+
+  begin
+    processor = registry.processor_by_ref(primary["content"].to_s)
+    xml = xml_for(doc, text, processor)
+  rescue StandardError => e
+    warn "  [skip] #{rel}: #{e.class}: #{e.message}"
+    errors += 1
+    next
+  end
+  titles = doc["title"] || []
+  main_title = titles.find { |t| t["type"] == "main" && t["language"] == "en" } ||
+               titles.find { |t| t["type"] == "main" } ||
+               titles.first
+  published = (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("at") ||
+              (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("value")
+
+  norm = Ingest::Normalize.norm_key(primary["content"].to_s)
+  year = primary["content"].to_s[/:(\d{4})(?=[^-]*$)/, 1] || published.to_s[0, 4]
+
+  canonicals = pubid_canonicals(docid_list, options[:flavor])
+  all_ids = docid_list.map do |d|
+    { norm: Ingest::Normalize.norm_key(d["content"].to_s), raw: d["content"], type: d["type"] }
+  end + canonicals.map do |c|
+    { norm: Ingest::Normalize.norm_key(c), raw: c, type: "canonical" }
+  end
+
+  rows << {
+    file_path: rel,
+    r2_key: r2_key,
+    docid: primary["content"],
+    norm: norm,
+    undated_norm: Ingest::Normalize.undated_key(norm),
+    allparts_norm: Ingest::Normalize.all_parts_key(norm),
+    year: year&.to_i,
+    published: published,
+    title_en: main_title && main_title["content"],
+    doctype: doc["type"],
+    status: extract_status(doc["status"]),
+    docids: all_ids.filter_map { |h| h[:norm].empty? ? nil : h }.uniq { |h| h[:norm] },
+  }
+  blobs[r2_key] = xml
+
+  puts "#{idx + 1}/#{files.size} #{rel}" if ((idx + 1) % 1000).zero?
+end
+
+chunk_size = options[:chunk_size]
+chunks = rows.each_slice(chunk_size).to_a
+chunks << [] if chunks.empty?
+
+chunks.each_with_index do |chunk_rows, i|
+  chunk_blobs = chunk_rows.each_with_object({}) { |r, h| h[r[:r2_key]] = blobs[r[:r2_key]] }
+  payload = {
+    flavor: options[:flavor],
+    repo: repo,
+    final: i == chunks.size - 1,
+    lastModified: last_modified,
+    relatonVersion: "data-repos",
+    rows: chunk_rows,
+    blobs: chunk_blobs,
+  }
+  File.binwrite(File.join(out_dir, format("chunk-%04d.json", i)), JSON.generate(payload))
+end
+
+puts "wrote #{chunks.size} chunk(s) to #{out_dir} (#{rows.size} docs, #{errors} skipped)"

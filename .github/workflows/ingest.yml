@@ -1,0 +1,40 @@
+name: ingest
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      flavors:
+        description: "Space-separated flavor list (defaults to all)"
+        required: false
+        default: ""
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        flavor:
+          [iso, 3gpp, adobe, bipm, easc, gost, iala, iana, ieee, iho, oiml, w3c]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: relaton/relaton-data-${{ matrix.flavor }}
+          path: data/relaton-data-${{ matrix.flavor }}
+      - uses: ruby/setup-ruby@v1
+        with:
+          working-directory: tools
+          bundler-cache: true
+      - name: Build chunks
+        working-directory: tools
+        env:
+          RELATON_GEM: ${{ vars.RELATON_GEM }}
+          PUBID_GEM: ${{ vars.PUBID_GEM }}
+        run: bundle exec ruby build_ingest.rb -r ../data/relaton-data-${{ matrix.flavor }} -f ${{ matrix.flavor }} -o out/${{ matrix.flavor }}
+      - name: Post chunks
+        env:
+          ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
+        run: tools/post_chunks.sh tools/out/${{ matrix.flavor }} https://api.relaton.org "$ADMIN_TOKEN"

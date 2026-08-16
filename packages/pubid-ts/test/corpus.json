@@ -1,0 +1,2731 @@
+[
+  {
+    "flavor": "iso",
+    "input": "AWI IWA 47",
+    "parseable": true,
+    "canonical": "AWI IWA 47",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 10140-4:2021",
+    "parseable": true,
+    "canonical": "ISO 10140-4:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 10325:2026",
+    "parseable": true,
+    "canonical": "ISO 10325:2026",
+    "year": "2026"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 105-Z:1978",
+    "parseable": true,
+    "canonical": "ISO 105-Z:1978",
+    "year": "1978"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 10842:2006",
+    "parseable": true,
+    "canonical": "ISO 10842:2006",
+    "year": "2006"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 11114-1:2020",
+    "parseable": true,
+    "canonical": "ISO 11114-1:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 11357-6:2018",
+    "parseable": true,
+    "canonical": "ISO 11357-6:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 11658:2012",
+    "parseable": true,
+    "canonical": "ISO 11658:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 11970:2025",
+    "parseable": true,
+    "canonical": "ISO 11970:2025",
+    "year": "2025"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 12297-1:2021",
+    "parseable": true,
+    "canonical": "ISO 12297-1:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 12807:1996",
+    "parseable": true,
+    "canonical": "ISO 12807:1996",
+    "year": "1996"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 13299:2016",
+    "parseable": true,
+    "canonical": "ISO 13299:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 13694:2015",
+    "parseable": true,
+    "canonical": "ISO 13694:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 14031:2013",
+    "parseable": true,
+    "canonical": "ISO 14031:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 14490-5:2021",
+    "parseable": true,
+    "canonical": "ISO 14490-5:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 14837-1:2005",
+    "parseable": true,
+    "canonical": "ISO 14837-1:2005",
+    "year": "2005"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 15192:2021",
+    "parseable": true,
+    "canonical": "ISO 15192:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 15630-2:2010",
+    "parseable": true,
+    "canonical": "ISO 15630-2:2010",
+    "year": "2010"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 16000-16:2008",
+    "parseable": true,
+    "canonical": "ISO 16000-16:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 16380:2014",
+    "parseable": true,
+    "canonical": "ISO 16380:2014",
+    "year": "2014"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 16859-3:2015",
+    "parseable": true,
+    "canonical": "ISO 16859-3:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 17364:2013",
+    "parseable": true,
+    "canonical": "ISO 17364:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 17892-11:2019",
+    "parseable": true,
+    "canonical": "ISO 17892-11:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 18405:2017",
+    "parseable": true,
+    "canonical": "ISO 18405:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 18916:2007",
+    "parseable": true,
+    "canonical": "ISO 18916:2007",
+    "year": "2007"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 1942-4:1989/CD Amd 2",
+    "parseable": true,
+    "canonical": "ISO 1942-4:1989/CD Amd 2",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 20088-3:2018",
+    "parseable": true,
+    "canonical": "ISO 20088-3:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 20695:2020",
+    "parseable": true,
+    "canonical": "ISO 20695:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 21191:2021",
+    "parseable": true,
+    "canonical": "ISO 21191:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 2179:1986",
+    "parseable": true,
+    "canonical": "ISO 2179:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 22381:2018",
+    "parseable": true,
+    "canonical": "ISO 22381:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 22899-3:2025",
+    "parseable": true,
+    "canonical": "ISO 22899-3:2025",
+    "year": "2025"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 23504-1:2020",
+    "parseable": true,
+    "canonical": "ISO 23504-1:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 24139-2:2023",
+    "parseable": true,
+    "canonical": "ISO 24139-2:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 2493-2:2011",
+    "parseable": true,
+    "canonical": "ISO 2493-2:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 26429-7:2008",
+    "parseable": true,
+    "canonical": "ISO 26429-7:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 28300:2008",
+    "parseable": true,
+    "canonical": "ISO 28300:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 2975-2:1975",
+    "parseable": true,
+    "canonical": "ISO 2975-2:1975",
+    "year": "1975"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 3146:2000",
+    "parseable": true,
+    "canonical": "ISO 3146:2000",
+    "year": "2000"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 3383:1976",
+    "parseable": true,
+    "canonical": "ISO 3383:1976",
+    "year": "1976"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 3613:2000",
+    "parseable": true,
+    "canonical": "ISO 3613:2000",
+    "year": "2000"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 3822-3:1984",
+    "parseable": true,
+    "canonical": "ISO 3822-3:1984",
+    "year": "1984"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 4026:2003",
+    "parseable": true,
+    "canonical": "ISO 4026:2003",
+    "year": "2003"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 4241:1978",
+    "parseable": true,
+    "canonical": "ISO 4241:1978",
+    "year": "1978"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 4491-2:2023",
+    "parseable": true,
+    "canonical": "ISO 4491-2:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 4730:1996",
+    "parseable": true,
+    "canonical": "ISO 4730:1996",
+    "year": "1996"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 504:1975",
+    "parseable": true,
+    "canonical": "ISO 504:1975",
+    "year": "1975"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 5361-3:1984",
+    "parseable": true,
+    "canonical": "ISO 5361-3:1984",
+    "year": "1984"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 565:1972",
+    "parseable": true,
+    "canonical": "ISO 565:1972",
+    "year": "1972"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 5893:2002",
+    "parseable": true,
+    "canonical": "ISO 5893:2002",
+    "year": "2002"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 6184-1:1985",
+    "parseable": true,
+    "canonical": "ISO 6184-1:1985",
+    "year": "1985"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 643:2019",
+    "parseable": true,
+    "canonical": "ISO 643:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 668:2013/Amd 1:2016",
+    "parseable": true,
+    "canonical": "ISO 668:2013/Amd 1:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 6927:2021",
+    "parseable": true,
+    "canonical": "ISO 6927:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 7010:2019/Amd 8:2024",
+    "parseable": true,
+    "canonical": "ISO 7010:2019/Amd 8:2024",
+    "year": "2024"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 7236:2014",
+    "parseable": true,
+    "canonical": "ISO 7236:2014",
+    "year": "2014"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 7509:2000",
+    "parseable": true,
+    "canonical": "ISO 7509:2000",
+    "year": "2000"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 78-4:1983",
+    "parseable": true,
+    "canonical": "ISO 78-4:1983",
+    "year": "1983"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 8036:2006",
+    "parseable": true,
+    "canonical": "ISO 8036:2006",
+    "year": "2006"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 8229:1991",
+    "parseable": true,
+    "canonical": "ISO 8229:1991",
+    "year": "1991"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 8503-5:2017",
+    "parseable": true,
+    "canonical": "ISO 8503-5:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 8700:2025",
+    "parseable": true,
+    "canonical": "ISO 8700:2025",
+    "year": "2025"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 9:1995/Amd 1:2024",
+    "parseable": true,
+    "canonical": "ISO 9:1995/Amd 1:2024",
+    "year": "2024"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 9241-303:2011",
+    "parseable": true,
+    "canonical": "ISO 9241-303:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 9588:1999",
+    "parseable": true,
+    "canonical": "ISO 9588:1999",
+    "year": "1999"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 9938:1994",
+    "parseable": true,
+    "canonical": "ISO 9938:1994",
+    "year": "1994"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/AWI 21356-1",
+    "parseable": true,
+    "canonical": "ISO/AWI 21356-1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/AWI TR 19672",
+    "parseable": true,
+    "canonical": "ISO/AWI TR 19672",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 12235-2",
+    "parseable": true,
+    "canonical": "ISO/CD 12235-2",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 16232-11",
+    "parseable": true,
+    "canonical": "ISO/CD 16232-11",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 22666",
+    "parseable": true,
+    "canonical": "ISO/CD 22666",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 4303",
+    "parseable": true,
+    "canonical": "ISO/CD 4303",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 80079-36",
+    "parseable": true,
+    "canonical": "ISO/CD 80079-36",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CDTS 19673.2",
+    "parseable": true,
+    "canonical": "ISO/CDTS 19673.2",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DIS 12957-1",
+    "parseable": true,
+    "canonical": "ISO/DIS 12957-1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DIS 18436-10",
+    "parseable": true,
+    "canonical": "ISO/DIS 18436-10",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DIS 2454",
+    "parseable": true,
+    "canonical": "ISO/DIS 2454",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DIS 6145-7",
+    "parseable": true,
+    "canonical": "ISO/DIS 6145-7",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DTR 17427-11",
+    "parseable": true,
+    "canonical": "ISO/DTR 17427-11",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/FDIS 9994",
+    "parseable": true,
+    "canonical": "ISO/FDIS 9994",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 11172-2:1993/Cor 1:1996",
+    "parseable": true,
+    "canonical": "ISO/IEC 11172-2:1993/Cor 1:1996",
+    "year": "1996"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 14443-3:2011/Amd 1:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC 14443-3:2011/Amd 1:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 14776-342:2000",
+    "parseable": true,
+    "canonical": "ISO/IEC 14776-342:2000",
+    "year": "2000"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 17341:2004",
+    "parseable": true,
+    "canonical": "ISO/IEC 17341:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 19823-21:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC 19823-21:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 23009-1:2014/Amd 1:2015",
+    "parseable": true,
+    "canonical": "ISO/IEC 23009-1:2014/Amd 1:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 27036-3:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC 27036-3:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 4396-5:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC 4396-5:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 9075-10:2008/Cor 1:2010",
+    "parseable": true,
+    "canonical": "ISO/IEC 9075-10:2008/Cor 1:2010",
+    "year": "2010"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC 9596-2:1993/Cor 3:1998",
+    "parseable": true,
+    "canonical": "ISO/IEC 9596-2:1993/Cor 3:1998",
+    "year": "1998"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC CD 5965",
+    "parseable": true,
+    "canonical": "ISO/IEC CD 5965",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC/IEEE 29119-3:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC/IEEE 29119-3:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC NP 19763-14",
+    "parseable": true,
+    "canonical": "ISO/IEC NP 19763-14",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC TR 15938-8:2002/Amd 4:2009",
+    "parseable": true,
+    "canonical": "ISO/IEC TR 15938-8:2002/Amd 4:2009",
+    "year": "2009"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC WD 14476-4",
+    "parseable": true,
+    "canonical": "ISO/IEC WD 14476-4",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/NP 1132-1",
+    "parseable": true,
+    "canonical": "ISO/NP 1132-1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/NP 17222",
+    "parseable": true,
+    "canonical": "ISO/NP 17222",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/NP 21705",
+    "parseable": true,
+    "canonical": "ISO/NP 21705",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/NP 26822",
+    "parseable": true,
+    "canonical": "ISO/NP 26822",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/NP TR 17767",
+    "parseable": true,
+    "canonical": "ISO/NP TR 17767",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/PWI 105-B08",
+    "parseable": true,
+    "canonical": "ISO/PWI 105-B08",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/PWI 17882",
+    "parseable": true,
+    "canonical": "ISO/PWI 17882",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/PWI 22847",
+    "parseable": true,
+    "canonical": "ISO/PWI 22847",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/PWI 5980",
+    "parseable": true,
+    "canonical": "ISO/PWI 5980",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/R 1131:1969",
+    "parseable": true,
+    "canonical": "ISO/R 1131:1969",
+    "year": "1969"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/R 222:1968",
+    "parseable": true,
+    "canonical": "ISO/R 222:1968",
+    "year": "1968"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/R 776:1968",
+    "parseable": true,
+    "canonical": "ISO/R 776:1968",
+    "year": "1968"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TR 14321:1997",
+    "parseable": true,
+    "canonical": "ISO/TR 14321:1997",
+    "year": "1997"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TR 23455:2019/FDCor 1",
+    "parseable": true,
+    "canonical": "ISO/TR 23455:2019/FDCor 1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 10303-1015:2004",
+    "parseable": true,
+    "canonical": "ISO/TS 10303-1015:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 10303-1400:2023",
+    "parseable": true,
+    "canonical": "ISO/TS 10303-1400:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 10303-1785:2010",
+    "parseable": true,
+    "canonical": "ISO/TS 10303-1785:2010",
+    "year": "2010"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 16727:2013",
+    "parseable": true,
+    "canonical": "ISO/TS 16727:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 21957:2023",
+    "parseable": true,
+    "canonical": "ISO/TS 21957:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 10303-301",
+    "parseable": true,
+    "canonical": "ISO/WD 10303-301",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 12614",
+    "parseable": true,
+    "canonical": "ISO/WD 12614",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 15006-2",
+    "parseable": true,
+    "canonical": "ISO/WD 15006-2",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 19736",
+    "parseable": true,
+    "canonical": "ISO/WD 19736",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 26286",
+    "parseable": true,
+    "canonical": "ISO/WD 26286",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/WD 762",
+    "parseable": true,
+    "canonical": "ISO/WD 762",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2016-05",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2016-05-05",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2017-05",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2017-05-05",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2018-05",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2018-05-05",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2019-05",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2019-05-05",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2020-05",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2020-05-05",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2021",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2022",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP:2023",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 + IEC SUP",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 + IEC SUP",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:1986",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:1992",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:1992",
+    "year": "1992"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:1995",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:1995",
+    "year": "1995"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2001",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2001",
+    "year": "2001"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2004",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2008",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2009",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2009",
+    "year": "2009"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2012",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2014",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2014",
+    "year": "2014"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2017",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2020",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2022",
+    "year": "2022"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 IEC",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 IEC",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:1986",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:1992",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:1992",
+    "year": "1992"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:1995",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:1995",
+    "year": "1995"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2001",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2001",
+    "year": "2001"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2004",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2008",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2009",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2009",
+    "year": "2009"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2012",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2014",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2014",
+    "year": "2014"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2017",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2020",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2022",
+    "year": "2022"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2003",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2003",
+    "year": "2003"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2012",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2014",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2014",
+    "year": "2014"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2015",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2017",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2020",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2022",
+    "year": "2022"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO SUP",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO SUP",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1 ISO",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1 ISO",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC:1986",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 IEC",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 IEC",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:1986",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:1992",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:1992",
+    "year": "1992"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:1997",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:1997",
+    "year": "1997"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2001",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2001",
+    "year": "2001"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2004",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2 ISO",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2 ISO",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 2",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 2",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 3:1986",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 3:1986",
+    "year": "1986"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 3:1989",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 3:1989",
+    "year": "1989"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 3:1997",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 3:1997",
+    "year": "1997"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 3",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 3",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2010",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2010",
+    "year": "2010"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2012",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2013",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2013",
+    "year": "2013"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2015",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2017",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2020",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2022",
+    "year": "2022"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2010",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2010",
+    "year": "2010"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2011",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2011",
+    "year": "2011"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2012",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2012",
+    "year": "2012"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2015",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2016",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2017",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2017",
+    "year": "2017"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2018",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2019",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2020",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2020",
+    "year": "2020"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2021",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2021",
+    "year": "2021"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2022",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2022",
+    "year": "2022"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP:2023",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP:2023",
+    "year": "2023"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1 SUP",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR JTC 1 SUP",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR JTC 1",
+    "parseable": true,
+    "canonical": "ISO/IEC JTC 1 DIR",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC JTC 1 DIR:2004",
+    "parseable": true,
+    "canonical": "ISO/IEC JTC 1 DIR:2004",
+    "year": "2004"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC JTC 1 DIR:2005",
+    "parseable": true,
+    "canonical": "ISO/IEC JTC 1 DIR:2005",
+    "year": "2005"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC JTC 1 DIR:2006",
+    "parseable": true,
+    "canonical": "ISO/IEC JTC 1 DIR:2006",
+    "year": "2006"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC JTC 1 DIR:2007",
+    "parseable": true,
+    "canonical": "ISO/IEC JTC 1 DIR:2007",
+    "year": "2007"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1110",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1110",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1167",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1167",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1337",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1337",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1375",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1375",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1548",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1548",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1685",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1685",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N1863",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 1863",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2328",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2328",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2412",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2412",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2541",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2541",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2612",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2612",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2617",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2617",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2661",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2661",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2680",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2680",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2984",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2984",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2985",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2985",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N2986",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 2986",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3493",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3493",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3500",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3500",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3501",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3501",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3502",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3502",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3503",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3503",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N3504",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 3504",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N532",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 532",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC 4 N534",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC 4 N 534",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC/QC 4 N246",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC/QC 4 N 246",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC/QC 4 N247",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC/QC 4 N 247",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TC 184/SC/QC 4 N265",
+    "parseable": true,
+    "canonical": "ISO/TC 184/SC/QC 4 N 265",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-10",
+    "parseable": true,
+    "canonical": "IHO B-10",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-12",
+    "parseable": true,
+    "canonical": "IHO B-12",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-13",
+    "parseable": true,
+    "canonical": "IHO B-13",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-4",
+    "parseable": true,
+    "canonical": "IHO B-4",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-7",
+    "parseable": true,
+    "canonical": "IHO B-7",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "B-9",
+    "parseable": true,
+    "canonical": "IHO B-9",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "C-16",
+    "parseable": true,
+    "canonical": "IHO C-16",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "C-17",
+    "parseable": true,
+    "canonical": "IHO C-17",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "C-47",
+    "parseable": true,
+    "canonical": "IHO C-47",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "C-55",
+    "parseable": true,
+    "canonical": "IHO C-55",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "M-1",
+    "parseable": true,
+    "canonical": "IHO M-1",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "M-1",
+    "parseable": true,
+    "canonical": "IHO M-1",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "M-2",
+    "parseable": true,
+    "canonical": "IHO M-2",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "M-7",
+    "parseable": true,
+    "canonical": "IHO M-7",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "M-7",
+    "parseable": true,
+    "canonical": "IHO M-7",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-1/22",
+    "parseable": true,
+    "canonical": "IHO P-1/22",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-1",
+    "parseable": true,
+    "canonical": "IHO P-1",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-6",
+    "parseable": true,
+    "canonical": "IHO P-6",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-6",
+    "parseable": true,
+    "canonical": "IHO P-6",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-7",
+    "parseable": true,
+    "canonical": "IHO P-7",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "P-7",
+    "parseable": true,
+    "canonical": "IHO P-7",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100",
+    "parseable": true,
+    "canonical": "IHO S-100",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100",
+    "parseable": true,
+    "canonical": "IHO S-100",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100",
+    "parseable": true,
+    "canonical": "IHO S-100",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100",
+    "parseable": true,
+    "canonical": "IHO S-100",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 0",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 0",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 10b",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 10b",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 11",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 11",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 13",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 13",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 15",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 15",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 16a",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 16a",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 18",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 18",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 2",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 2",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 2b",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 2b",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 4a",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 4a",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 4c",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 4c",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 6",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 6",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 8",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 8",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-100 Part 9a",
+    "parseable": true,
+    "canonical": "IHO S-100 Part 9a",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-101",
+    "parseable": true,
+    "canonical": "IHO S-101",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-101",
+    "parseable": true,
+    "canonical": "IHO S-101",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-102",
+    "parseable": true,
+    "canonical": "IHO S-102",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-102",
+    "parseable": true,
+    "canonical": "IHO S-102",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-104",
+    "parseable": true,
+    "canonical": "IHO S-104",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-104",
+    "parseable": true,
+    "canonical": "IHO S-104",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-111",
+    "parseable": true,
+    "canonical": "IHO S-111",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-11",
+    "parseable": true,
+    "canonical": "IHO S-11",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-122",
+    "parseable": true,
+    "canonical": "IHO S-122",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-122 Appendix B",
+    "parseable": true,
+    "canonical": "IHO S-122 Ap. B",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-122 Appendix D-2",
+    "parseable": true,
+    "canonical": "IHO S-122 Ap. D-2",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-123",
+    "parseable": true,
+    "canonical": "IHO S-123",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-123 Appendix B",
+    "parseable": true,
+    "canonical": "IHO S-123 Ap. B",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-123 Appendix D-2",
+    "parseable": true,
+    "canonical": "IHO S-123 Ap. D-2",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-124",
+    "parseable": true,
+    "canonical": "IHO S-124",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-127",
+    "parseable": true,
+    "canonical": "IHO S-127",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-128",
+    "parseable": true,
+    "canonical": "IHO S-128",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-129",
+    "parseable": true,
+    "canonical": "IHO S-129",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-12",
+    "parseable": true,
+    "canonical": "IHO S-12",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-131",
+    "parseable": true,
+    "canonical": "IHO S-131",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-158:101",
+    "parseable": true,
+    "canonical": "IHO S-158:101",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-158:98",
+    "parseable": true,
+    "canonical": "IHO S-158:98",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-164",
+    "parseable": true,
+    "canonical": "IHO S-164",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-201",
+    "parseable": true,
+    "canonical": "IHO S-201",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-240",
+    "parseable": true,
+    "canonical": "IHO S-240",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-246",
+    "parseable": true,
+    "canonical": "IHO S-246",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-32",
+    "parseable": true,
+    "canonical": "IHO S-32",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-421",
+    "parseable": true,
+    "canonical": "IHO S-421",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-44",
+    "parseable": true,
+    "canonical": "IHO S-44",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-49",
+    "parseable": true,
+    "canonical": "IHO S-49",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-4",
+    "parseable": true,
+    "canonical": "IHO S-4",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-4 Part A",
+    "parseable": true,
+    "canonical": "IHO S-4 Part A",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-4 Part C",
+    "parseable": true,
+    "canonical": "IHO S-4 Part C",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-53",
+    "parseable": true,
+    "canonical": "IHO S-53",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-53",
+    "parseable": true,
+    "canonical": "IHO S-53",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-57",
+    "parseable": true,
+    "canonical": "IHO S-57",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-58",
+    "parseable": true,
+    "canonical": "IHO S-58",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-5B",
+    "parseable": true,
+    "canonical": "IHO S-5B",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-61",
+    "parseable": true,
+    "canonical": "IHO S-61",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-63",
+    "parseable": true,
+    "canonical": "IHO S-63",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-64",
+    "parseable": true,
+    "canonical": "IHO S-64",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-65 Ap. A",
+    "parseable": true,
+    "canonical": "IHO S-65 Ap. A",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-65 Ap. B",
+    "parseable": true,
+    "canonical": "IHO S-65 Ap. B",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-66",
+    "parseable": true,
+    "canonical": "IHO S-66",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-66 Suppl 1",
+    "parseable": true,
+    "canonical": "IHO S-66 Suppl 1",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-66 Suppl 3",
+    "parseable": true,
+    "canonical": "IHO S-66 Suppl 3",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-67",
+    "parseable": true,
+    "canonical": "IHO S-67",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-8A",
+    "parseable": true,
+    "canonical": "IHO S-8A",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-97",
+    "parseable": true,
+    "canonical": "IHO S-97",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-98 Annex A",
+    "parseable": true,
+    "canonical": "IHO S-98 Annex A",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-98 Annex C",
+    "parseable": true,
+    "canonical": "IHO S-98 Annex C",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-98 Part B",
+    "parseable": true,
+    "canonical": "IHO S-98 Part B",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-98 Part D",
+    "parseable": true,
+    "canonical": "IHO S-98 Part D",
+    "year": null
+  },
+  {
+    "flavor": "iho",
+    "input": "S-99",
+    "parseable": true,
+    "canonical": "IHO S-99",
+    "year": null
+  },
+  {
+    "flavor": "itu",
+    "input": "ITU-T G.7710/Y.1705 (2001)",
+    "parseable": true,
+    "canonical": "ITU-T G.7710/Y.1705 (2001)",
+    "year": "2001"
+  },
+  {
+    "flavor": "itu",
+    "input": "ITU-T G.989.2",
+    "parseable": true,
+    "canonical": "ITU-T G.989.2",
+    "year": null
+  },
+  {
+    "flavor": "itu",
+    "input": "ITU-R V.574-5",
+    "parseable": true,
+    "canonical": "ITU-R V.574-5",
+    "year": null
+  },
+  {
+    "flavor": "itu",
+    "input": "ITU-T G.6501",
+    "parseable": true,
+    "canonical": "ITU-T G.6501",
+    "year": null
+  },
+  {
+    "flavor": "nist",
+    "input": "NIST SP 800-53 Rev. 5",
+    "parseable": true,
+    "canonical": "NIST SP 800-53 Rev. 5",
+    "year": null
+  },
+  {
+    "flavor": "nist",
+    "input": "NIST FIPS 140-3",
+    "parseable": true,
+    "canonical": "NIST FIPS 140-3",
+    "year": null
+  },
+  {
+    "flavor": "nist",
+    "input": "NIST IR 8115",
+    "parseable": true,
+    "canonical": "NIST IR 8115",
+    "year": null
+  },
+  {
+    "flavor": "nist",
+    "input": "NBS CIRC 24e7sup",
+    "parseable": true,
+    "canonical": "NBS CIRC 24e7sup",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC Directives Part 1",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR 1",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR 1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC DIR IEC SUP",
+    "parseable": true,
+    "canonical": "ISO/IEC DIR IEC SUP",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "JCGM 200:2008",
+    "parseable": true,
+    "canonical": "JCGM 200:2008",
+    "year": "2008"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 2631/DAD 1",
+    "parseable": true,
+    "canonical": "ISO 2631/DAD 1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ИСО 639-1",
+    "parseable": true,
+    "canonical": "ISO 639-1",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/AWI IWA 47",
+    "parseable": true,
+    "canonical": "AWI IWA 47",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/CD 31010",
+    "parseable": true,
+    "canonical": "ISO/CD 31010",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/DIS 31010",
+    "parseable": true,
+    "canonical": "ISO/DIS 31010",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/FDIS 9001",
+    "parseable": true,
+    "canonical": "ISO/FDIS 9001",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 9001:2015/Amd 1:2018",
+    "parseable": true,
+    "canonical": "ISO 9001:2015/Amd 1:2018",
+    "year": "2018"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TS 8000-1:2019",
+    "parseable": true,
+    "canonical": "ISO/TS 8000-1:2019",
+    "year": "2019"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/TR 17716",
+    "parseable": true,
+    "canonical": "ISO/TR 17716",
+    "year": null
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/R 657-4:1969",
+    "parseable": true,
+    "canonical": "ISO/R 657-4:1969",
+    "year": "1969"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO/IEC IEEE 8802-22:2015/Amd.2:2017",
+    "parseable": false,
+    "reason": "Parslet::ParseFailed"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 19115-1:2014/Cor 1:2016",
+    "parseable": true,
+    "canonical": "ISO 19115-1:2014/Cor 1:2016",
+    "year": "2016"
+  },
+  {
+    "flavor": "iso",
+    "input": "ISO 19115 (all parts)",
+    "parseable": true,
+    "canonical": "ISO 19115 (all parts)",
+    "year": null
+  },
+  {
+    "flavor": "iec",
+    "input": "IEC 61010-2-201:2015+AMD1:2018 CSV",
+    "parseable": true,
+    "canonical": "IEC 61010-2-201:2015+AMD1:2018 CSV",
+    "year": "2015"
+  },
+  {
+    "flavor": "iec",
+    "input": "IEC 60285-/1:1989",
+    "parseable": true,
+    "canonical": "IEC 60285/1:1989",
+    "year": "1989"
+  },
+  {
+    "flavor": "ieee",
+    "input": "IEEE 802.3",
+    "parseable": true,
+    "canonical": "IEEE Std 802.3",
+    "year": null
+  },
+  {
+    "flavor": "ieee",
+    "input": "IEEE Std 802.3-2015",
+    "parseable": true,
+    "canonical": "IEEE Std 802.3-2015",
+    "year": "2015"
+  },
+  {
+    "flavor": "ieee",
+    "input": "IEEE 11073-10101",
+    "parseable": true,
+    "canonical": "IEEE Std 11073-10101",
+    "year": null
+  },
+  {
+    "flavor": "ieee",
+    "input": "IEEE/ISO/IEC 8802-3",
+    "parseable": true,
+    "canonical": "ISO/IEC/IEEE 8802-3",
+    "year": null
+  }
+]

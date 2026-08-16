@@ -1,0 +1,136 @@
+import { Hono } from "hono";
+import type { AppEnv } from "../env";
+
+interface IngestDocid {
+  norm: string;
+  raw: string;
+  type: string | null;
+}
+
+interface IngestRow {
+  file_path: string;
+  r2_key: string;
+  docid: string | null;
+  norm: string;
+  undated_norm: string;
+  allparts_norm: string;
+  year: number | null;
+  published: string | null;
+  title_en: string | null;
+  doctype: string | null;
+  status: string | null;
+  docids: IngestDocid[];
+}
+
+interface IngestChunk {
+  flavor: string;
+  repo: string;
+  final?: boolean;
+  lastModified?: string | null;
+  relatonVersion?: string;
+  rows: IngestRow[];
+  blobs: Record<string, string>;
+}
+
+function fixedTimeEqual(a: Uint8Array, b: Uint8Array): boolean {
+  if (a.byteLength !== b.byteLength) return false;
+  let diff = 0;
+  for (let i = 0; i < a.byteLength; i++) diff |= a[i]! ^ b[i]!;
+  return diff === 0;
+}
+
+function tokenMatches(header: string | undefined, token: string): boolean {
+  if (!header?.startsWith("Bearer ")) return false;
+  return fixedTimeEqual(new TextEncoder().encode(header.slice(7)), new TextEncoder().encode(token));
+}
+
+export const adminRoutes = new Hono<AppEnv>();
+
+adminRoutes.post("/admin/ingest/:flavor", async (c) => {
+  if (!c.env.ADMIN_TOKEN || !tokenMatches(c.req.header("Authorization"), c.env.ADMIN_TOKEN)) {
+    return c.text("Forbidden.", 403);
+  }
+
+  const flavor = c.req.param("flavor").replace(/[^a-z0-9-]/gi, "");
+  const chunk = await c.req.json<IngestChunk>();
+  if (chunk.flavor !== flavor) return c.text("Flavor mismatch.", 400);
+
+  const stmts: D1PreparedStatement[] = [];
+  for (const row of chunk.rows) {
+    stmts.push(
+      c.env.DB.prepare(
+        `INSERT INTO documents
+           (flavor, file_path, kind, r2_key, docid, norm, undated_norm, allparts_norm,
+            year, published, title_en, doctype, status)
+         VALUES (?1, ?2, 'document', ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12)
+         ON CONFLICT (flavor, file_path, kind) DO UPDATE SET
+           r2_key = excluded.r2_key, docid = excluded.docid, norm = excluded.norm,
+           undated_norm = excluded.undated_norm, allparts_norm = excluded.allparts_norm,
+           year = excluded.year, published = excluded.published, title_en = excluded.title_en,
+           doctype = excluded.doctype, status = excluded.status`,
+      ).bind(
+        flavor, row.file_path, row.r2_key, row.docid, row.norm, row.undated_norm,
+        row.allparts_norm, row.year, row.published, row.title_en, row.doctype, row.status,
+      ),
+    );
+    stmts.push(
+      c.env.DB.prepare(
+        `DELETE FROM docids WHERE document_id =
+           (SELECT id FROM documents WHERE flavor = ?1 AND file_path = ?2 AND kind = 'document')`,
+      ).bind(flavor, row.file_path),
+    );
+    for (const d of row.docids) {
+      stmts.push(
+        c.env.DB.prepare(
+          `INSERT INTO docids (norm, raw, type, document_id)
+           SELECT ?1, ?2, ?3, id FROM documents WHERE flavor = ?4 AND file_path = ?5 AND kind = 'document'
+           ON CONFLICT (norm, document_id) DO NOTHING`,
+        ).bind(d.norm, d.raw, d.type, flavor, row.file_path),
+      );
+    }
+  }
+
+  if (chunk.final) {
+    stmts.push(
+      c.env.DB.prepare(
+        `INSERT INTO flavors (flavor, repo, last_modified, ingested_at, doc_count)
+         VALUES (?1, ?2, ?3, ?4, (SELECT COUNT(*) FROM documents WHERE flavor = ?1))
+         ON CONFLICT (flavor) DO UPDATE SET
+           repo = excluded.repo, last_modified = excluded.last_modified,
+           ingested_at = excluded.ingested_at, doc_count = excluded.doc_count`,
+      ).bind(flavor, chunk.repo, chunk.lastModified ?? null, new Date().toISOString()),
+    );
+    if (chunk.relatonVersion) {
+      stmts.push(
+        c.env.DB.prepare(
+          `INSERT INTO meta (key, value) VALUES ('relaton_version', ?1)
+           ON CONFLICT (key) DO UPDATE SET value = excluded.value`,
+        ).bind(chunk.relatonVersion),
+      );
+    }
+  }
+
+  try {
+    for (let i = 0; i < stmts.length; i += 90) {
+      await c.env.DB.batch(stmts.slice(i, i + 90));
+    }
+  } catch (e) {
+    console.error(`ingest batch failed for flavor ${flavor}: ${String(e)}`);
+    return c.text(`Ingest failed: ${String(e)}`, 500);
+  }
+
+  await putBlobs(c.env.BUCKET, chunk.blobs);
+
+  return c.json({ ok: true, rows: chunk.rows.length, blobs: Object.keys(chunk.blobs).length });
+});
+
+async function putBlobs(bucket: R2Bucket, blobs: Record<string, string>, concurrency = 25): Promise<void> {
+  const entries = Object.entries(blobs);
+  for (let i = 0; i < entries.length; i += concurrency) {
+    await Promise.all(
+      entries.slice(i, i + concurrency).map(([key, xml]) =>
+        bucket.put(key, xml, { httpMetadata: { contentType: "text/xml; charset=utf-8" } }),
+      ),
+    );
+  }
+}
