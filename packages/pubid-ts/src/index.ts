@@ -47,3 +47,5 @@ export function canonicalize(code: string, flavor?: string): string | null {
 export function yearOf(code: string, flavor?: string): string | null {
   return parse(code, flavor)?.year ?? null;
 }
+
+export * from "./keys";

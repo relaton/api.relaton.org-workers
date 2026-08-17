@@ -6,7 +6,6 @@ export { parseConfig, RelatonApiConfigSchema } from "./config";
 export type { RelatonApiConfig } from "./config";
 export type { AppEnv, Env } from "./env";
 export { runIngestion } from "./ingest/sync";
-export { normalizeCode, normKey, undatedKey, allPartsKey, lastPublisherKey } from "./lib/normalize";
 
 export interface RelatonApi {
   app: ReturnType<typeof createApp>;

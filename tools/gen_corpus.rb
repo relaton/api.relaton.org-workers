@@ -101,8 +101,21 @@ corpus = inputs.filter_map do |s|
   rescue StandardError => e
     next { **s, parseable: false, reason: e.class.name }
   end
+  canonical = id.to_s
+  norm = canonical.upcase.delete(" ")
+  year = id.year.to_s
+  undated = year.empty? ? norm : norm.sub(/:?#{Regexp.escape(year)}(?=[^-]*$)/, "")
+  raw_part = nil
+  begin
+    raw_part = id.part
+  rescue NoMethodError
+    nil
+  end
+  part = raw_part.is_a?(String) ? raw_part : raw_part&.value.to_s
+  allparts = part && !part.empty? ? undated.sub(/-#{Regexp.escape(part)}(?=[^-]*$)/, "") : undated
   { flavor: s[:flavor], input: s[:input], parseable: true,
-    canonical: id.to_s, year: id.year&.to_s }
+    canonical: canonical, year: id.year&.to_s,
+    keys: { norm: norm, undated: undated, allparts: allparts } }
 end
 
 File.binwrite(File.join(OUT_TEST, "corpus.json"), JSON.pretty_generate(corpus))

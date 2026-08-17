@@ -1,6 +1,6 @@
 import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
 import type { AppEnv } from "../env";
-import { normalizeCode } from "../lib/normalize";
+import { normalizeCode } from "pubid-ts";
 import { findDocument } from "../lib/lookup";
 
 const QuerySchema = z.object({

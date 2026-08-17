@@ -4,2667 +4,4572 @@
     "input": "AWI IWA 47",
     "parseable": true,
     "canonical": "AWI IWA 47",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "AWIIWA47",
+      "undated": "AWIIWA47",
+      "allparts": "AWIIWA47"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 10140-4:2021",
     "parseable": true,
     "canonical": "ISO 10140-4:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO10140-4:2021",
+      "undated": "ISO10140-4",
+      "allparts": "ISO10140"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 10325:2026",
     "parseable": true,
     "canonical": "ISO 10325:2026",
-    "year": "2026"
+    "year": "2026",
+    "keys": {
+      "norm": "ISO10325:2026",
+      "undated": "ISO10325",
+      "allparts": "ISO10325"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 105-Z:1978",
     "parseable": true,
     "canonical": "ISO 105-Z:1978",
-    "year": "1978"
+    "year": "1978",
+    "keys": {
+      "norm": "ISO105-Z:1978",
+      "undated": "ISO105-Z",
+      "allparts": "ISO105"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 10842:2006",
     "parseable": true,
     "canonical": "ISO 10842:2006",
-    "year": "2006"
+    "year": "2006",
+    "keys": {
+      "norm": "ISO10842:2006",
+      "undated": "ISO10842",
+      "allparts": "ISO10842"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 11114-1:2020",
     "parseable": true,
     "canonical": "ISO 11114-1:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO11114-1:2020",
+      "undated": "ISO11114-1",
+      "allparts": "ISO11114"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 11357-6:2018",
     "parseable": true,
     "canonical": "ISO 11357-6:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO11357-6:2018",
+      "undated": "ISO11357-6",
+      "allparts": "ISO11357"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 11658:2012",
     "parseable": true,
     "canonical": "ISO 11658:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO11658:2012",
+      "undated": "ISO11658",
+      "allparts": "ISO11658"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 11970:2025",
     "parseable": true,
     "canonical": "ISO 11970:2025",
-    "year": "2025"
+    "year": "2025",
+    "keys": {
+      "norm": "ISO11970:2025",
+      "undated": "ISO11970",
+      "allparts": "ISO11970"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 12297-1:2021",
     "parseable": true,
     "canonical": "ISO 12297-1:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO12297-1:2021",
+      "undated": "ISO12297-1",
+      "allparts": "ISO12297"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 12807:1996",
     "parseable": true,
     "canonical": "ISO 12807:1996",
-    "year": "1996"
+    "year": "1996",
+    "keys": {
+      "norm": "ISO12807:1996",
+      "undated": "ISO12807",
+      "allparts": "ISO12807"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 13299:2016",
     "parseable": true,
     "canonical": "ISO 13299:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO13299:2016",
+      "undated": "ISO13299",
+      "allparts": "ISO13299"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 13694:2015",
     "parseable": true,
     "canonical": "ISO 13694:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO13694:2015",
+      "undated": "ISO13694",
+      "allparts": "ISO13694"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 14031:2013",
     "parseable": true,
     "canonical": "ISO 14031:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO14031:2013",
+      "undated": "ISO14031",
+      "allparts": "ISO14031"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 14490-5:2021",
     "parseable": true,
     "canonical": "ISO 14490-5:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO14490-5:2021",
+      "undated": "ISO14490-5",
+      "allparts": "ISO14490"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 14837-1:2005",
     "parseable": true,
     "canonical": "ISO 14837-1:2005",
-    "year": "2005"
+    "year": "2005",
+    "keys": {
+      "norm": "ISO14837-1:2005",
+      "undated": "ISO14837-1",
+      "allparts": "ISO14837"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 15192:2021",
     "parseable": true,
     "canonical": "ISO 15192:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO15192:2021",
+      "undated": "ISO15192",
+      "allparts": "ISO15192"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 15630-2:2010",
     "parseable": true,
     "canonical": "ISO 15630-2:2010",
-    "year": "2010"
+    "year": "2010",
+    "keys": {
+      "norm": "ISO15630-2:2010",
+      "undated": "ISO15630-2",
+      "allparts": "ISO15630"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 16000-16:2008",
     "parseable": true,
     "canonical": "ISO 16000-16:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "ISO16000-16:2008",
+      "undated": "ISO16000-16",
+      "allparts": "ISO16000"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 16380:2014",
     "parseable": true,
     "canonical": "ISO 16380:2014",
-    "year": "2014"
+    "year": "2014",
+    "keys": {
+      "norm": "ISO16380:2014",
+      "undated": "ISO16380",
+      "allparts": "ISO16380"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 16859-3:2015",
     "parseable": true,
     "canonical": "ISO 16859-3:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO16859-3:2015",
+      "undated": "ISO16859-3",
+      "allparts": "ISO16859"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 17364:2013",
     "parseable": true,
     "canonical": "ISO 17364:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO17364:2013",
+      "undated": "ISO17364",
+      "allparts": "ISO17364"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 17892-11:2019",
     "parseable": true,
     "canonical": "ISO 17892-11:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO17892-11:2019",
+      "undated": "ISO17892-11",
+      "allparts": "ISO17892"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 18405:2017",
     "parseable": true,
     "canonical": "ISO 18405:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO18405:2017",
+      "undated": "ISO18405",
+      "allparts": "ISO18405"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 18916:2007",
     "parseable": true,
     "canonical": "ISO 18916:2007",
-    "year": "2007"
+    "year": "2007",
+    "keys": {
+      "norm": "ISO18916:2007",
+      "undated": "ISO18916",
+      "allparts": "ISO18916"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 1942-4:1989/CD Amd 2",
     "parseable": true,
     "canonical": "ISO 1942-4:1989/CD Amd 2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO1942-4:1989/CDAMD2",
+      "undated": "ISO1942-4:1989/CDAMD2",
+      "allparts": "ISO1942-4:1989/CDAMD2"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 20088-3:2018",
     "parseable": true,
     "canonical": "ISO 20088-3:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO20088-3:2018",
+      "undated": "ISO20088-3",
+      "allparts": "ISO20088"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 20695:2020",
     "parseable": true,
     "canonical": "ISO 20695:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO20695:2020",
+      "undated": "ISO20695",
+      "allparts": "ISO20695"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 21191:2021",
     "parseable": true,
     "canonical": "ISO 21191:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO21191:2021",
+      "undated": "ISO21191",
+      "allparts": "ISO21191"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 2179:1986",
     "parseable": true,
     "canonical": "ISO 2179:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO2179:1986",
+      "undated": "ISO2179",
+      "allparts": "ISO2179"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 22381:2018",
     "parseable": true,
     "canonical": "ISO 22381:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO22381:2018",
+      "undated": "ISO22381",
+      "allparts": "ISO22381"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 22899-3:2025",
     "parseable": true,
     "canonical": "ISO 22899-3:2025",
-    "year": "2025"
+    "year": "2025",
+    "keys": {
+      "norm": "ISO22899-3:2025",
+      "undated": "ISO22899-3",
+      "allparts": "ISO22899"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 23504-1:2020",
     "parseable": true,
     "canonical": "ISO 23504-1:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO23504-1:2020",
+      "undated": "ISO23504-1",
+      "allparts": "ISO23504"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 24139-2:2023",
     "parseable": true,
     "canonical": "ISO 24139-2:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO24139-2:2023",
+      "undated": "ISO24139-2",
+      "allparts": "ISO24139"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 2493-2:2011",
     "parseable": true,
     "canonical": "ISO 2493-2:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO2493-2:2011",
+      "undated": "ISO2493-2",
+      "allparts": "ISO2493"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 26429-7:2008",
     "parseable": true,
     "canonical": "ISO 26429-7:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "ISO26429-7:2008",
+      "undated": "ISO26429-7",
+      "allparts": "ISO26429"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 28300:2008",
     "parseable": true,
     "canonical": "ISO 28300:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "ISO28300:2008",
+      "undated": "ISO28300",
+      "allparts": "ISO28300"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 2975-2:1975",
     "parseable": true,
     "canonical": "ISO 2975-2:1975",
-    "year": "1975"
+    "year": "1975",
+    "keys": {
+      "norm": "ISO2975-2:1975",
+      "undated": "ISO2975-2",
+      "allparts": "ISO2975"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 3146:2000",
     "parseable": true,
     "canonical": "ISO 3146:2000",
-    "year": "2000"
+    "year": "2000",
+    "keys": {
+      "norm": "ISO3146:2000",
+      "undated": "ISO3146",
+      "allparts": "ISO3146"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 3383:1976",
     "parseable": true,
     "canonical": "ISO 3383:1976",
-    "year": "1976"
+    "year": "1976",
+    "keys": {
+      "norm": "ISO3383:1976",
+      "undated": "ISO3383",
+      "allparts": "ISO3383"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 3613:2000",
     "parseable": true,
     "canonical": "ISO 3613:2000",
-    "year": "2000"
+    "year": "2000",
+    "keys": {
+      "norm": "ISO3613:2000",
+      "undated": "ISO3613",
+      "allparts": "ISO3613"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 3822-3:1984",
     "parseable": true,
     "canonical": "ISO 3822-3:1984",
-    "year": "1984"
+    "year": "1984",
+    "keys": {
+      "norm": "ISO3822-3:1984",
+      "undated": "ISO3822-3",
+      "allparts": "ISO3822"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 4026:2003",
     "parseable": true,
     "canonical": "ISO 4026:2003",
-    "year": "2003"
+    "year": "2003",
+    "keys": {
+      "norm": "ISO4026:2003",
+      "undated": "ISO4026",
+      "allparts": "ISO4026"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 4241:1978",
     "parseable": true,
     "canonical": "ISO 4241:1978",
-    "year": "1978"
+    "year": "1978",
+    "keys": {
+      "norm": "ISO4241:1978",
+      "undated": "ISO4241",
+      "allparts": "ISO4241"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 4491-2:2023",
     "parseable": true,
     "canonical": "ISO 4491-2:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO4491-2:2023",
+      "undated": "ISO4491-2",
+      "allparts": "ISO4491"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 4730:1996",
     "parseable": true,
     "canonical": "ISO 4730:1996",
-    "year": "1996"
+    "year": "1996",
+    "keys": {
+      "norm": "ISO4730:1996",
+      "undated": "ISO4730",
+      "allparts": "ISO4730"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 504:1975",
     "parseable": true,
     "canonical": "ISO 504:1975",
-    "year": "1975"
+    "year": "1975",
+    "keys": {
+      "norm": "ISO504:1975",
+      "undated": "ISO504",
+      "allparts": "ISO504"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 5361-3:1984",
     "parseable": true,
     "canonical": "ISO 5361-3:1984",
-    "year": "1984"
+    "year": "1984",
+    "keys": {
+      "norm": "ISO5361-3:1984",
+      "undated": "ISO5361-3",
+      "allparts": "ISO5361"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 565:1972",
     "parseable": true,
     "canonical": "ISO 565:1972",
-    "year": "1972"
+    "year": "1972",
+    "keys": {
+      "norm": "ISO565:1972",
+      "undated": "ISO565",
+      "allparts": "ISO565"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 5893:2002",
     "parseable": true,
     "canonical": "ISO 5893:2002",
-    "year": "2002"
+    "year": "2002",
+    "keys": {
+      "norm": "ISO5893:2002",
+      "undated": "ISO5893",
+      "allparts": "ISO5893"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 6184-1:1985",
     "parseable": true,
     "canonical": "ISO 6184-1:1985",
-    "year": "1985"
+    "year": "1985",
+    "keys": {
+      "norm": "ISO6184-1:1985",
+      "undated": "ISO6184-1",
+      "allparts": "ISO6184"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 643:2019",
     "parseable": true,
     "canonical": "ISO 643:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO643:2019",
+      "undated": "ISO643",
+      "allparts": "ISO643"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 668:2013/Amd 1:2016",
     "parseable": true,
     "canonical": "ISO 668:2013/Amd 1:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO668:2013/AMD1:2016",
+      "undated": "ISO668:2013/AMD1",
+      "allparts": "ISO668:2013/AMD1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 6927:2021",
     "parseable": true,
     "canonical": "ISO 6927:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO6927:2021",
+      "undated": "ISO6927",
+      "allparts": "ISO6927"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 7010:2019/Amd 8:2024",
     "parseable": true,
     "canonical": "ISO 7010:2019/Amd 8:2024",
-    "year": "2024"
+    "year": "2024",
+    "keys": {
+      "norm": "ISO7010:2019/AMD8:2024",
+      "undated": "ISO7010:2019/AMD8",
+      "allparts": "ISO7010:2019/AMD8"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 7236:2014",
     "parseable": true,
     "canonical": "ISO 7236:2014",
-    "year": "2014"
+    "year": "2014",
+    "keys": {
+      "norm": "ISO7236:2014",
+      "undated": "ISO7236",
+      "allparts": "ISO7236"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 7509:2000",
     "parseable": true,
     "canonical": "ISO 7509:2000",
-    "year": "2000"
+    "year": "2000",
+    "keys": {
+      "norm": "ISO7509:2000",
+      "undated": "ISO7509",
+      "allparts": "ISO7509"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 78-4:1983",
     "parseable": true,
     "canonical": "ISO 78-4:1983",
-    "year": "1983"
+    "year": "1983",
+    "keys": {
+      "norm": "ISO78-4:1983",
+      "undated": "ISO78-4",
+      "allparts": "ISO78"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 8036:2006",
     "parseable": true,
     "canonical": "ISO 8036:2006",
-    "year": "2006"
+    "year": "2006",
+    "keys": {
+      "norm": "ISO8036:2006",
+      "undated": "ISO8036",
+      "allparts": "ISO8036"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 8229:1991",
     "parseable": true,
     "canonical": "ISO 8229:1991",
-    "year": "1991"
+    "year": "1991",
+    "keys": {
+      "norm": "ISO8229:1991",
+      "undated": "ISO8229",
+      "allparts": "ISO8229"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 8503-5:2017",
     "parseable": true,
     "canonical": "ISO 8503-5:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO8503-5:2017",
+      "undated": "ISO8503-5",
+      "allparts": "ISO8503"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 8700:2025",
     "parseable": true,
     "canonical": "ISO 8700:2025",
-    "year": "2025"
+    "year": "2025",
+    "keys": {
+      "norm": "ISO8700:2025",
+      "undated": "ISO8700",
+      "allparts": "ISO8700"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 9:1995/Amd 1:2024",
     "parseable": true,
     "canonical": "ISO 9:1995/Amd 1:2024",
-    "year": "2024"
+    "year": "2024",
+    "keys": {
+      "norm": "ISO9:1995/AMD1:2024",
+      "undated": "ISO9:1995/AMD1",
+      "allparts": "ISO9:1995/AMD1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 9241-303:2011",
     "parseable": true,
     "canonical": "ISO 9241-303:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO9241-303:2011",
+      "undated": "ISO9241-303",
+      "allparts": "ISO9241"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 9588:1999",
     "parseable": true,
     "canonical": "ISO 9588:1999",
-    "year": "1999"
+    "year": "1999",
+    "keys": {
+      "norm": "ISO9588:1999",
+      "undated": "ISO9588",
+      "allparts": "ISO9588"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 9938:1994",
     "parseable": true,
     "canonical": "ISO 9938:1994",
-    "year": "1994"
+    "year": "1994",
+    "keys": {
+      "norm": "ISO9938:1994",
+      "undated": "ISO9938",
+      "allparts": "ISO9938"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/AWI 21356-1",
     "parseable": true,
     "canonical": "ISO/AWI 21356-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/AWI21356-1",
+      "undated": "ISO/AWI21356-1",
+      "allparts": "ISO/AWI21356"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/AWI TR 19672",
     "parseable": true,
     "canonical": "ISO/AWI TR 19672",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/AWITR19672",
+      "undated": "ISO/AWITR19672",
+      "allparts": "ISO/AWITR19672"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 12235-2",
     "parseable": true,
     "canonical": "ISO/CD 12235-2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD12235-2",
+      "undated": "ISO/CD12235-2",
+      "allparts": "ISO/CD12235"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 16232-11",
     "parseable": true,
     "canonical": "ISO/CD 16232-11",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD16232-11",
+      "undated": "ISO/CD16232-11",
+      "allparts": "ISO/CD16232"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 22666",
     "parseable": true,
     "canonical": "ISO/CD 22666",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD22666",
+      "undated": "ISO/CD22666",
+      "allparts": "ISO/CD22666"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 4303",
     "parseable": true,
     "canonical": "ISO/CD 4303",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD4303",
+      "undated": "ISO/CD4303",
+      "allparts": "ISO/CD4303"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 80079-36",
     "parseable": true,
     "canonical": "ISO/CD 80079-36",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD80079-36",
+      "undated": "ISO/CD80079-36",
+      "allparts": "ISO/CD80079"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CDTS 19673.2",
     "parseable": true,
     "canonical": "ISO/CDTS 19673.2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CDTS19673.2",
+      "undated": "ISO/CDTS19673.2",
+      "allparts": "ISO/CDTS19673.2"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DIS 12957-1",
     "parseable": true,
     "canonical": "ISO/DIS 12957-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DIS12957-1",
+      "undated": "ISO/DIS12957-1",
+      "allparts": "ISO/DIS12957"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DIS 18436-10",
     "parseable": true,
     "canonical": "ISO/DIS 18436-10",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DIS18436-10",
+      "undated": "ISO/DIS18436-10",
+      "allparts": "ISO/DIS18436"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DIS 2454",
     "parseable": true,
     "canonical": "ISO/DIS 2454",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DIS2454",
+      "undated": "ISO/DIS2454",
+      "allparts": "ISO/DIS2454"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DIS 6145-7",
     "parseable": true,
     "canonical": "ISO/DIS 6145-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DIS6145-7",
+      "undated": "ISO/DIS6145-7",
+      "allparts": "ISO/DIS6145"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DTR 17427-11",
     "parseable": true,
     "canonical": "ISO/DTR 17427-11",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DTR17427-11",
+      "undated": "ISO/DTR17427-11",
+      "allparts": "ISO/DTR17427"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/FDIS 9994",
     "parseable": true,
     "canonical": "ISO/FDIS 9994",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/FDIS9994",
+      "undated": "ISO/FDIS9994",
+      "allparts": "ISO/FDIS9994"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 11172-2:1993/Cor 1:1996",
     "parseable": true,
     "canonical": "ISO/IEC 11172-2:1993/Cor 1:1996",
-    "year": "1996"
+    "year": "1996",
+    "keys": {
+      "norm": "ISO/IEC11172-2:1993/COR1:1996",
+      "undated": "ISO/IEC11172-2:1993/COR1",
+      "allparts": "ISO/IEC11172-2:1993/COR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 14443-3:2011/Amd 1:2011",
     "parseable": true,
     "canonical": "ISO/IEC 14443-3:2011/Amd 1:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IEC14443-3:2011/AMD1:2011",
+      "undated": "ISO/IEC14443-3/AMD1:2011",
+      "allparts": "ISO/IEC14443-3/AMD1:2011"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 14776-342:2000",
     "parseable": true,
     "canonical": "ISO/IEC 14776-342:2000",
-    "year": "2000"
+    "year": "2000",
+    "keys": {
+      "norm": "ISO/IEC14776-342:2000",
+      "undated": "ISO/IEC14776-342",
+      "allparts": "ISO/IEC14776"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 17341:2004",
     "parseable": true,
     "canonical": "ISO/IEC 17341:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/IEC17341:2004",
+      "undated": "ISO/IEC17341",
+      "allparts": "ISO/IEC17341"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 19823-21:2019",
     "parseable": true,
     "canonical": "ISO/IEC 19823-21:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IEC19823-21:2019",
+      "undated": "ISO/IEC19823-21",
+      "allparts": "ISO/IEC19823"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 23009-1:2014/Amd 1:2015",
     "parseable": true,
     "canonical": "ISO/IEC 23009-1:2014/Amd 1:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO/IEC23009-1:2014/AMD1:2015",
+      "undated": "ISO/IEC23009-1:2014/AMD1",
+      "allparts": "ISO/IEC23009-1:2014/AMD1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 27036-3:2013",
     "parseable": true,
     "canonical": "ISO/IEC 27036-3:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IEC27036-3:2013",
+      "undated": "ISO/IEC27036-3",
+      "allparts": "ISO/IEC27036"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 4396-5:2023",
     "parseable": true,
     "canonical": "ISO/IEC 4396-5:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IEC4396-5:2023",
+      "undated": "ISO/IEC4396-5",
+      "allparts": "ISO/IEC4396"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 9075-10:2008/Cor 1:2010",
     "parseable": true,
     "canonical": "ISO/IEC 9075-10:2008/Cor 1:2010",
-    "year": "2010"
+    "year": "2010",
+    "keys": {
+      "norm": "ISO/IEC9075-10:2008/COR1:2010",
+      "undated": "ISO/IEC9075-10:2008/COR1",
+      "allparts": "ISO/IEC9075-10:2008/COR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC 9596-2:1993/Cor 3:1998",
     "parseable": true,
     "canonical": "ISO/IEC 9596-2:1993/Cor 3:1998",
-    "year": "1998"
+    "year": "1998",
+    "keys": {
+      "norm": "ISO/IEC9596-2:1993/COR3:1998",
+      "undated": "ISO/IEC9596-2:1993/COR3",
+      "allparts": "ISO/IEC9596-2:1993/COR3"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC CD 5965",
     "parseable": true,
     "canonical": "ISO/IEC CD 5965",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECCD5965",
+      "undated": "ISO/IECCD5965",
+      "allparts": "ISO/IECCD5965"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC/IEEE 29119-3:2013",
     "parseable": true,
     "canonical": "ISO/IEC/IEEE 29119-3:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IEC/IEEE29119-3:2013",
+      "undated": "ISO/IEC/IEEE29119-3",
+      "allparts": "ISO/IEC/IEEE29119"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC NP 19763-14",
     "parseable": true,
     "canonical": "ISO/IEC NP 19763-14",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECNP19763-14",
+      "undated": "ISO/IECNP19763-14",
+      "allparts": "ISO/IECNP19763"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC TR 15938-8:2002/Amd 4:2009",
     "parseable": true,
     "canonical": "ISO/IEC TR 15938-8:2002/Amd 4:2009",
-    "year": "2009"
+    "year": "2009",
+    "keys": {
+      "norm": "ISO/IECTR15938-8:2002/AMD4:2009",
+      "undated": "ISO/IECTR15938-8:2002/AMD4",
+      "allparts": "ISO/IECTR15938-8:2002/AMD4"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC WD 14476-4",
     "parseable": true,
     "canonical": "ISO/IEC WD 14476-4",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECWD14476-4",
+      "undated": "ISO/IECWD14476-4",
+      "allparts": "ISO/IECWD14476"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/NP 1132-1",
     "parseable": true,
     "canonical": "ISO/NP 1132-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/NP1132-1",
+      "undated": "ISO/NP1132-1",
+      "allparts": "ISO/NP1132"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/NP 17222",
     "parseable": true,
     "canonical": "ISO/NP 17222",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/NP17222",
+      "undated": "ISO/NP17222",
+      "allparts": "ISO/NP17222"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/NP 21705",
     "parseable": true,
     "canonical": "ISO/NP 21705",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/NP21705",
+      "undated": "ISO/NP21705",
+      "allparts": "ISO/NP21705"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/NP 26822",
     "parseable": true,
     "canonical": "ISO/NP 26822",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/NP26822",
+      "undated": "ISO/NP26822",
+      "allparts": "ISO/NP26822"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/NP TR 17767",
     "parseable": true,
     "canonical": "ISO/NP TR 17767",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/NPTR17767",
+      "undated": "ISO/NPTR17767",
+      "allparts": "ISO/NPTR17767"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/PWI 105-B08",
     "parseable": true,
     "canonical": "ISO/PWI 105-B08",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/PWI105-B08",
+      "undated": "ISO/PWI105-B08",
+      "allparts": "ISO/PWI105"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/PWI 17882",
     "parseable": true,
     "canonical": "ISO/PWI 17882",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/PWI17882",
+      "undated": "ISO/PWI17882",
+      "allparts": "ISO/PWI17882"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/PWI 22847",
     "parseable": true,
     "canonical": "ISO/PWI 22847",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/PWI22847",
+      "undated": "ISO/PWI22847",
+      "allparts": "ISO/PWI22847"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/PWI 5980",
     "parseable": true,
     "canonical": "ISO/PWI 5980",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/PWI5980",
+      "undated": "ISO/PWI5980",
+      "allparts": "ISO/PWI5980"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/R 1131:1969",
     "parseable": true,
     "canonical": "ISO/R 1131:1969",
-    "year": "1969"
+    "year": "1969",
+    "keys": {
+      "norm": "ISO/R1131:1969",
+      "undated": "ISO/R1131",
+      "allparts": "ISO/R1131"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/R 222:1968",
     "parseable": true,
     "canonical": "ISO/R 222:1968",
-    "year": "1968"
+    "year": "1968",
+    "keys": {
+      "norm": "ISO/R222:1968",
+      "undated": "ISO/R222",
+      "allparts": "ISO/R222"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/R 776:1968",
     "parseable": true,
     "canonical": "ISO/R 776:1968",
-    "year": "1968"
+    "year": "1968",
+    "keys": {
+      "norm": "ISO/R776:1968",
+      "undated": "ISO/R776",
+      "allparts": "ISO/R776"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TR 14321:1997",
     "parseable": true,
     "canonical": "ISO/TR 14321:1997",
-    "year": "1997"
+    "year": "1997",
+    "keys": {
+      "norm": "ISO/TR14321:1997",
+      "undated": "ISO/TR14321",
+      "allparts": "ISO/TR14321"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TR 23455:2019/FDCor 1",
     "parseable": true,
     "canonical": "ISO/TR 23455:2019/FDCor 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TR23455:2019/FDCOR1",
+      "undated": "ISO/TR23455:2019/FDCOR1",
+      "allparts": "ISO/TR23455:2019/FDCOR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 10303-1015:2004",
     "parseable": true,
     "canonical": "ISO/TS 10303-1015:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/TS10303-1015:2004",
+      "undated": "ISO/TS10303-1015",
+      "allparts": "ISO/TS10303"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 10303-1400:2023",
     "parseable": true,
     "canonical": "ISO/TS 10303-1400:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/TS10303-1400:2023",
+      "undated": "ISO/TS10303-1400",
+      "allparts": "ISO/TS10303"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 10303-1785:2010",
     "parseable": true,
     "canonical": "ISO/TS 10303-1785:2010",
-    "year": "2010"
+    "year": "2010",
+    "keys": {
+      "norm": "ISO/TS10303-1785:2010",
+      "undated": "ISO/TS10303-1785",
+      "allparts": "ISO/TS10303"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 16727:2013",
     "parseable": true,
     "canonical": "ISO/TS 16727:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/TS16727:2013",
+      "undated": "ISO/TS16727",
+      "allparts": "ISO/TS16727"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 21957:2023",
     "parseable": true,
     "canonical": "ISO/TS 21957:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/TS21957:2023",
+      "undated": "ISO/TS21957",
+      "allparts": "ISO/TS21957"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 10303-301",
     "parseable": true,
     "canonical": "ISO/WD 10303-301",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD10303-301",
+      "undated": "ISO/WD10303-301",
+      "allparts": "ISO/WD10303"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 12614",
     "parseable": true,
     "canonical": "ISO/WD 12614",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD12614",
+      "undated": "ISO/WD12614",
+      "allparts": "ISO/WD12614"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 15006-2",
     "parseable": true,
     "canonical": "ISO/WD 15006-2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD15006-2",
+      "undated": "ISO/WD15006-2",
+      "allparts": "ISO/WD15006"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 19736",
     "parseable": true,
     "canonical": "ISO/WD 19736",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD19736",
+      "undated": "ISO/WD19736",
+      "allparts": "ISO/WD19736"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 26286",
     "parseable": true,
     "canonical": "ISO/WD 26286",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD26286",
+      "undated": "ISO/WD26286",
+      "allparts": "ISO/WD26286"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/WD 762",
     "parseable": true,
     "canonical": "ISO/WD 762",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/WD762",
+      "undated": "ISO/WD762",
+      "allparts": "ISO/WD762"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2016-05",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2016-05-05",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2016-05-05",
+      "undated": "ISO/IECDIR1+IECSUP:2016-05-05",
+      "allparts": "ISO/IECDIR1+IECSUP:2016-05-05"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2017-05",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2017-05-05",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2017-05-05",
+      "undated": "ISO/IECDIR1+IECSUP:2017-05-05",
+      "allparts": "ISO/IECDIR1+IECSUP:2017-05-05"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2018-05",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2018-05-05",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2018-05-05",
+      "undated": "ISO/IECDIR1+IECSUP:2018-05-05",
+      "allparts": "ISO/IECDIR1+IECSUP:2018-05-05"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2019-05",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2019-05-05",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2019-05-05",
+      "undated": "ISO/IECDIR1+IECSUP:2019-05-05",
+      "allparts": "ISO/IECDIR1+IECSUP:2019-05-05"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2020-05",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2020-05-05",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2020-05-05",
+      "undated": "ISO/IECDIR1+IECSUP:2020-05-05",
+      "allparts": "ISO/IECDIR1+IECSUP:2020-05-05"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2021",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2021",
+      "undated": "ISO/IECDIR1+IECSUP:2021",
+      "allparts": "ISO/IECDIR1+IECSUP:2021"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2022",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2022",
+      "undated": "ISO/IECDIR1+IECSUP:2022",
+      "allparts": "ISO/IECDIR1+IECSUP:2022"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP:2023",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP:2023",
+      "undated": "ISO/IECDIR1+IECSUP:2023",
+      "allparts": "ISO/IECDIR1+IECSUP:2023"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 + IEC SUP",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 + IEC SUP",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1+IECSUP",
+      "undated": "ISO/IECDIR1+IECSUP",
+      "allparts": "ISO/IECDIR1+IECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:1986",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:1986",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:1992",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:1992",
-    "year": "1992"
+    "year": "1992",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:1992",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:1995",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:1995",
-    "year": "1995"
+    "year": "1995",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:1995",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2001",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2001",
-    "year": "2001"
+    "year": "2001",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2001",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2004",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2004",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2008",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2008",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2009",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2009",
-    "year": "2009"
+    "year": "2009",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2009",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2011",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2012",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2012",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2013",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2013",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2014",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2014",
-    "year": "2014"
+    "year": "2014",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2014",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2016",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2017",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2017",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2018",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2019",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2019",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2020",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2020",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2021",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2022",
-    "year": "2022"
+    "year": "2022",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2022",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IECDIR1IEC:2023",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 IEC",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 IEC",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1IEC",
+      "undated": "ISO/IECDIR1IEC",
+      "allparts": "ISO/IECDIR1IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:1986",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:1986",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:1992",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:1992",
-    "year": "1992"
+    "year": "1992",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:1992",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:1995",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:1995",
-    "year": "1995"
+    "year": "1995",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:1995",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2001",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2001",
-    "year": "2001"
+    "year": "2001",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2001",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2004",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2004",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2008",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2008",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2009",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2009",
-    "year": "2009"
+    "year": "2009",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2009",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2011",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2012",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2012",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2013",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2013",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2014",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2014",
-    "year": "2014"
+    "year": "2014",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2014",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2016",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2017",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2017",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2018",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2019",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2019",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2020",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2020",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2021",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2022",
-    "year": "2022"
+    "year": "2022",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2022",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IECDIR1ISO:2023",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2003",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2003",
-    "year": "2003"
+    "year": "2003",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2003",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2011",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2012",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2012",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2013",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2013",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2014",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2014",
-    "year": "2014"
+    "year": "2014",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2014",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2015",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2015",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2016",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2017",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2017",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2018",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2019",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2019",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2020",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2020",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2021",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2022",
-    "year": "2022"
+    "year": "2022",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2022",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP:2023",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO SUP",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO SUP",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1ISOSUP",
+      "undated": "ISO/IECDIR1ISOSUP",
+      "allparts": "ISO/IECDIR1ISOSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1 ISO",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1 ISO",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1ISO",
+      "undated": "ISO/IECDIR1ISO",
+      "allparts": "ISO/IECDIR1ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1",
+      "undated": "ISO/IECDIR1",
+      "allparts": "ISO/IECDIR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC:1986",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO/IECDIR2IEC:1986",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIR2IEC:2011",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIR2IEC:2016",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIR2IEC:2018",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIR2IEC:2021",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 IEC",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 IEC",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR2IEC",
+      "undated": "ISO/IECDIR2IEC",
+      "allparts": "ISO/IECDIR2IEC"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:1986",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:1986",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:1992",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:1992",
-    "year": "1992"
+    "year": "1992",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:1992",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:1997",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:1997",
-    "year": "1997"
+    "year": "1997",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:1997",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2001",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2001",
-    "year": "2001"
+    "year": "2001",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2001",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2004",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2004",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2011",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2016",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2018",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIR2ISO:2021",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2 ISO",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2 ISO",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR2ISO",
+      "undated": "ISO/IECDIR2ISO",
+      "allparts": "ISO/IECDIR2ISO"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 2",
     "parseable": true,
     "canonical": "ISO/IEC DIR 2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR2",
+      "undated": "ISO/IECDIR2",
+      "allparts": "ISO/IECDIR2"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 3:1986",
     "parseable": true,
     "canonical": "ISO/IEC DIR 3:1986",
-    "year": "1986"
+    "year": "1986",
+    "keys": {
+      "norm": "ISO/IECDIR3:1986",
+      "undated": "ISO/IECDIR3",
+      "allparts": "ISO/IECDIR3"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 3:1989",
     "parseable": true,
     "canonical": "ISO/IEC DIR 3:1989",
-    "year": "1989"
+    "year": "1989",
+    "keys": {
+      "norm": "ISO/IECDIR3:1989",
+      "undated": "ISO/IECDIR3",
+      "allparts": "ISO/IECDIR3"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 3:1997",
     "parseable": true,
     "canonical": "ISO/IEC DIR 3:1997",
-    "year": "1997"
+    "year": "1997",
+    "keys": {
+      "norm": "ISO/IECDIR3:1997",
+      "undated": "ISO/IECDIR3",
+      "allparts": "ISO/IECDIR3"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 3",
     "parseable": true,
     "canonical": "ISO/IEC DIR 3",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR3",
+      "undated": "ISO/IECDIR3",
+      "allparts": "ISO/IECDIR3"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2010",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2010",
-    "year": "2010"
+    "year": "2010",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2010",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2011",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2012",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2012",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2013",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2013",
-    "year": "2013"
+    "year": "2013",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2013",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2015",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2015",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2016",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2017",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2017",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2018",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2019",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2019",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2020",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2020",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2021",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2022",
-    "year": "2022"
+    "year": "2022",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2022",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP:2023",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2010",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2010",
-    "year": "2010"
+    "year": "2010",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2010",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2011",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2011",
-    "year": "2011"
+    "year": "2011",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2011",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2012",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2012",
-    "year": "2012"
+    "year": "2012",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2012",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2015",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2015",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2016",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2016",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2017",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2017",
-    "year": "2017"
+    "year": "2017",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2017",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2018",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2018",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2019",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2019",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2020",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2020",
-    "year": "2020"
+    "year": "2020",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2020",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2021",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2021",
-    "year": "2021"
+    "year": "2021",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2021",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2022",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2022",
-    "year": "2022"
+    "year": "2022",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2022",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP:2023",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP:2023",
-    "year": "2023"
+    "year": "2023",
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP:2023",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1 SUP",
     "parseable": true,
     "canonical": "ISO/IEC DIR JTC 1 SUP",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIRJTC1SUP",
+      "undated": "ISO/IECDIRJTC1SUP",
+      "allparts": "ISO/IECDIRJTC1SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR JTC 1",
     "parseable": true,
     "canonical": "ISO/IEC JTC 1 DIR",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECJTC1DIR",
+      "undated": "ISO/IECJTC1DIR",
+      "allparts": "ISO/IECJTC1DIR"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC JTC 1 DIR:2004",
     "parseable": true,
     "canonical": "ISO/IEC JTC 1 DIR:2004",
-    "year": "2004"
+    "year": "2004",
+    "keys": {
+      "norm": "ISO/IECJTC1DIR:2004",
+      "undated": "ISO/IECJTC1DIR",
+      "allparts": "ISO/IECJTC1DIR"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC JTC 1 DIR:2005",
     "parseable": true,
     "canonical": "ISO/IEC JTC 1 DIR:2005",
-    "year": "2005"
+    "year": "2005",
+    "keys": {
+      "norm": "ISO/IECJTC1DIR:2005",
+      "undated": "ISO/IECJTC1DIR",
+      "allparts": "ISO/IECJTC1DIR"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC JTC 1 DIR:2006",
     "parseable": true,
     "canonical": "ISO/IEC JTC 1 DIR:2006",
-    "year": "2006"
+    "year": "2006",
+    "keys": {
+      "norm": "ISO/IECJTC1DIR:2006",
+      "undated": "ISO/IECJTC1DIR",
+      "allparts": "ISO/IECJTC1DIR"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC JTC 1 DIR:2007",
     "parseable": true,
     "canonical": "ISO/IEC JTC 1 DIR:2007",
-    "year": "2007"
+    "year": "2007",
+    "keys": {
+      "norm": "ISO/IECJTC1DIR:2007",
+      "undated": "ISO/IECJTC1DIR",
+      "allparts": "ISO/IECJTC1DIR"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1110",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1110",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1110",
+      "undated": "ISO/TC184/SC4N1110",
+      "allparts": "ISO/TC184/SC4N1110"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1167",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1167",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1167",
+      "undated": "ISO/TC184/SC4N1167",
+      "allparts": "ISO/TC184/SC4N1167"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1337",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1337",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1337",
+      "undated": "ISO/TC184/SC4N1337",
+      "allparts": "ISO/TC184/SC4N1337"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1375",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1375",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1375",
+      "undated": "ISO/TC184/SC4N1375",
+      "allparts": "ISO/TC184/SC4N1375"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1548",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1548",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1548",
+      "undated": "ISO/TC184/SC4N1548",
+      "allparts": "ISO/TC184/SC4N1548"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1685",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1685",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1685",
+      "undated": "ISO/TC184/SC4N1685",
+      "allparts": "ISO/TC184/SC4N1685"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N1863",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 1863",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N1863",
+      "undated": "ISO/TC184/SC4N1863",
+      "allparts": "ISO/TC184/SC4N1863"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2328",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2328",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2328",
+      "undated": "ISO/TC184/SC4N2328",
+      "allparts": "ISO/TC184/SC4N2328"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2412",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2412",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2412",
+      "undated": "ISO/TC184/SC4N2412",
+      "allparts": "ISO/TC184/SC4N2412"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2541",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2541",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2541",
+      "undated": "ISO/TC184/SC4N2541",
+      "allparts": "ISO/TC184/SC4N2541"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2612",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2612",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2612",
+      "undated": "ISO/TC184/SC4N2612",
+      "allparts": "ISO/TC184/SC4N2612"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2617",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2617",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2617",
+      "undated": "ISO/TC184/SC4N2617",
+      "allparts": "ISO/TC184/SC4N2617"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2661",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2661",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2661",
+      "undated": "ISO/TC184/SC4N2661",
+      "allparts": "ISO/TC184/SC4N2661"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2680",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2680",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2680",
+      "undated": "ISO/TC184/SC4N2680",
+      "allparts": "ISO/TC184/SC4N2680"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2984",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2984",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2984",
+      "undated": "ISO/TC184/SC4N2984",
+      "allparts": "ISO/TC184/SC4N2984"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2985",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2985",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2985",
+      "undated": "ISO/TC184/SC4N2985",
+      "allparts": "ISO/TC184/SC4N2985"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N2986",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 2986",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N2986",
+      "undated": "ISO/TC184/SC4N2986",
+      "allparts": "ISO/TC184/SC4N2986"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3493",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3493",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3493",
+      "undated": "ISO/TC184/SC4N3493",
+      "allparts": "ISO/TC184/SC4N3493"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3500",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3500",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3500",
+      "undated": "ISO/TC184/SC4N3500",
+      "allparts": "ISO/TC184/SC4N3500"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3501",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3501",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3501",
+      "undated": "ISO/TC184/SC4N3501",
+      "allparts": "ISO/TC184/SC4N3501"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3502",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3502",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3502",
+      "undated": "ISO/TC184/SC4N3502",
+      "allparts": "ISO/TC184/SC4N3502"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3503",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3503",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3503",
+      "undated": "ISO/TC184/SC4N3503",
+      "allparts": "ISO/TC184/SC4N3503"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N3504",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 3504",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N3504",
+      "undated": "ISO/TC184/SC4N3504",
+      "allparts": "ISO/TC184/SC4N3504"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N532",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 532",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N532",
+      "undated": "ISO/TC184/SC4N532",
+      "allparts": "ISO/TC184/SC4N532"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC 4 N534",
     "parseable": true,
     "canonical": "ISO/TC 184/SC 4 N 534",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC4N534",
+      "undated": "ISO/TC184/SC4N534",
+      "allparts": "ISO/TC184/SC4N534"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC/QC 4 N246",
     "parseable": true,
     "canonical": "ISO/TC 184/SC/QC 4 N 246",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC/QC4N246",
+      "undated": "ISO/TC184/SC/QC4N246",
+      "allparts": "ISO/TC184/SC/QC4N246"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC/QC 4 N247",
     "parseable": true,
     "canonical": "ISO/TC 184/SC/QC 4 N 247",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC/QC4N247",
+      "undated": "ISO/TC184/SC/QC4N247",
+      "allparts": "ISO/TC184/SC/QC4N247"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TC 184/SC/QC 4 N265",
     "parseable": true,
     "canonical": "ISO/TC 184/SC/QC 4 N 265",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TC184/SC/QC4N265",
+      "undated": "ISO/TC184/SC/QC4N265",
+      "allparts": "ISO/TC184/SC/QC4N265"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-10",
     "parseable": true,
     "canonical": "IHO B-10",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-10",
+      "undated": "IHOB-10",
+      "allparts": "IHOB-10"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-12",
     "parseable": true,
     "canonical": "IHO B-12",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-12",
+      "undated": "IHOB-12",
+      "allparts": "IHOB-12"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-13",
     "parseable": true,
     "canonical": "IHO B-13",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-13",
+      "undated": "IHOB-13",
+      "allparts": "IHOB-13"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-4",
     "parseable": true,
     "canonical": "IHO B-4",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-4",
+      "undated": "IHOB-4",
+      "allparts": "IHOB-4"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-7",
     "parseable": true,
     "canonical": "IHO B-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-7",
+      "undated": "IHOB-7",
+      "allparts": "IHOB-7"
+    }
   },
   {
     "flavor": "iho",
     "input": "B-9",
     "parseable": true,
     "canonical": "IHO B-9",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOB-9",
+      "undated": "IHOB-9",
+      "allparts": "IHOB-9"
+    }
   },
   {
     "flavor": "iho",
     "input": "C-16",
     "parseable": true,
     "canonical": "IHO C-16",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOC-16",
+      "undated": "IHOC-16",
+      "allparts": "IHOC-16"
+    }
   },
   {
     "flavor": "iho",
     "input": "C-17",
     "parseable": true,
     "canonical": "IHO C-17",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOC-17",
+      "undated": "IHOC-17",
+      "allparts": "IHOC-17"
+    }
   },
   {
     "flavor": "iho",
     "input": "C-47",
     "parseable": true,
     "canonical": "IHO C-47",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOC-47",
+      "undated": "IHOC-47",
+      "allparts": "IHOC-47"
+    }
   },
   {
     "flavor": "iho",
     "input": "C-55",
     "parseable": true,
     "canonical": "IHO C-55",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOC-55",
+      "undated": "IHOC-55",
+      "allparts": "IHOC-55"
+    }
   },
   {
     "flavor": "iho",
     "input": "M-1",
     "parseable": true,
     "canonical": "IHO M-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOM-1",
+      "undated": "IHOM-1",
+      "allparts": "IHOM-1"
+    }
   },
   {
     "flavor": "iho",
     "input": "M-1",
     "parseable": true,
     "canonical": "IHO M-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOM-1",
+      "undated": "IHOM-1",
+      "allparts": "IHOM-1"
+    }
   },
   {
     "flavor": "iho",
     "input": "M-2",
     "parseable": true,
     "canonical": "IHO M-2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOM-2",
+      "undated": "IHOM-2",
+      "allparts": "IHOM-2"
+    }
   },
   {
     "flavor": "iho",
     "input": "M-7",
     "parseable": true,
     "canonical": "IHO M-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOM-7",
+      "undated": "IHOM-7",
+      "allparts": "IHOM-7"
+    }
   },
   {
     "flavor": "iho",
     "input": "M-7",
     "parseable": true,
     "canonical": "IHO M-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOM-7",
+      "undated": "IHOM-7",
+      "allparts": "IHOM-7"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-1/22",
     "parseable": true,
     "canonical": "IHO P-1/22",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-1/22",
+      "undated": "IHOP-1/22",
+      "allparts": "IHOP-1/22"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-1",
     "parseable": true,
     "canonical": "IHO P-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-1",
+      "undated": "IHOP-1",
+      "allparts": "IHOP-1"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-6",
     "parseable": true,
     "canonical": "IHO P-6",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-6",
+      "undated": "IHOP-6",
+      "allparts": "IHOP-6"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-6",
     "parseable": true,
     "canonical": "IHO P-6",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-6",
+      "undated": "IHOP-6",
+      "allparts": "IHOP-6"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-7",
     "parseable": true,
     "canonical": "IHO P-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-7",
+      "undated": "IHOP-7",
+      "allparts": "IHOP-7"
+    }
   },
   {
     "flavor": "iho",
     "input": "P-7",
     "parseable": true,
     "canonical": "IHO P-7",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOP-7",
+      "undated": "IHOP-7",
+      "allparts": "IHOP-7"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100",
     "parseable": true,
     "canonical": "IHO S-100",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100",
+      "undated": "IHOS-100",
+      "allparts": "IHOS-100"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100",
     "parseable": true,
     "canonical": "IHO S-100",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100",
+      "undated": "IHOS-100",
+      "allparts": "IHOS-100"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100",
     "parseable": true,
     "canonical": "IHO S-100",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100",
+      "undated": "IHOS-100",
+      "allparts": "IHOS-100"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100",
     "parseable": true,
     "canonical": "IHO S-100",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100",
+      "undated": "IHOS-100",
+      "allparts": "IHOS-100"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 0",
     "parseable": true,
     "canonical": "IHO S-100 Part 0",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART0",
+      "undated": "IHOS-100PART0",
+      "allparts": "IHOS-100PART0"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 10b",
     "parseable": true,
     "canonical": "IHO S-100 Part 10b",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART10B",
+      "undated": "IHOS-100PART10B",
+      "allparts": "IHOS-100PART10B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 11",
     "parseable": true,
     "canonical": "IHO S-100 Part 11",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART11",
+      "undated": "IHOS-100PART11",
+      "allparts": "IHOS-100PART11"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 13",
     "parseable": true,
     "canonical": "IHO S-100 Part 13",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART13",
+      "undated": "IHOS-100PART13",
+      "allparts": "IHOS-100PART13"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 15",
     "parseable": true,
     "canonical": "IHO S-100 Part 15",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART15",
+      "undated": "IHOS-100PART15",
+      "allparts": "IHOS-100PART15"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 16a",
     "parseable": true,
     "canonical": "IHO S-100 Part 16a",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART16A",
+      "undated": "IHOS-100PART16A",
+      "allparts": "IHOS-100PART16A"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 18",
     "parseable": true,
     "canonical": "IHO S-100 Part 18",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART18",
+      "undated": "IHOS-100PART18",
+      "allparts": "IHOS-100PART18"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 2",
     "parseable": true,
     "canonical": "IHO S-100 Part 2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART2",
+      "undated": "IHOS-100PART2",
+      "allparts": "IHOS-100PART2"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 2b",
     "parseable": true,
     "canonical": "IHO S-100 Part 2b",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART2B",
+      "undated": "IHOS-100PART2B",
+      "allparts": "IHOS-100PART2B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 4a",
     "parseable": true,
     "canonical": "IHO S-100 Part 4a",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART4A",
+      "undated": "IHOS-100PART4A",
+      "allparts": "IHOS-100PART4A"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 4c",
     "parseable": true,
     "canonical": "IHO S-100 Part 4c",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART4C",
+      "undated": "IHOS-100PART4C",
+      "allparts": "IHOS-100PART4C"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 6",
     "parseable": true,
     "canonical": "IHO S-100 Part 6",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART6",
+      "undated": "IHOS-100PART6",
+      "allparts": "IHOS-100PART6"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 8",
     "parseable": true,
     "canonical": "IHO S-100 Part 8",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART8",
+      "undated": "IHOS-100PART8",
+      "allparts": "IHOS-100PART8"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-100 Part 9a",
     "parseable": true,
     "canonical": "IHO S-100 Part 9a",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-100PART9A",
+      "undated": "IHOS-100PART9A",
+      "allparts": "IHOS-100PART9A"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-101",
     "parseable": true,
     "canonical": "IHO S-101",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-101",
+      "undated": "IHOS-101",
+      "allparts": "IHOS-101"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-101",
     "parseable": true,
     "canonical": "IHO S-101",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-101",
+      "undated": "IHOS-101",
+      "allparts": "IHOS-101"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-102",
     "parseable": true,
     "canonical": "IHO S-102",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-102",
+      "undated": "IHOS-102",
+      "allparts": "IHOS-102"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-102",
     "parseable": true,
     "canonical": "IHO S-102",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-102",
+      "undated": "IHOS-102",
+      "allparts": "IHOS-102"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-104",
     "parseable": true,
     "canonical": "IHO S-104",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-104",
+      "undated": "IHOS-104",
+      "allparts": "IHOS-104"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-104",
     "parseable": true,
     "canonical": "IHO S-104",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-104",
+      "undated": "IHOS-104",
+      "allparts": "IHOS-104"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-111",
     "parseable": true,
     "canonical": "IHO S-111",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-111",
+      "undated": "IHOS-111",
+      "allparts": "IHOS-111"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-11",
     "parseable": true,
     "canonical": "IHO S-11",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-11",
+      "undated": "IHOS-11",
+      "allparts": "IHOS-11"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-122",
     "parseable": true,
     "canonical": "IHO S-122",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-122",
+      "undated": "IHOS-122",
+      "allparts": "IHOS-122"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-122 Appendix B",
     "parseable": true,
     "canonical": "IHO S-122 Ap. B",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-122AP.B",
+      "undated": "IHOS-122AP.B",
+      "allparts": "IHOS-122AP.B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-122 Appendix D-2",
     "parseable": true,
     "canonical": "IHO S-122 Ap. D-2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-122AP.D-2",
+      "undated": "IHOS-122AP.D-2",
+      "allparts": "IHOS-122AP.D-2"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-123",
     "parseable": true,
     "canonical": "IHO S-123",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-123",
+      "undated": "IHOS-123",
+      "allparts": "IHOS-123"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-123 Appendix B",
     "parseable": true,
     "canonical": "IHO S-123 Ap. B",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-123AP.B",
+      "undated": "IHOS-123AP.B",
+      "allparts": "IHOS-123AP.B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-123 Appendix D-2",
     "parseable": true,
     "canonical": "IHO S-123 Ap. D-2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-123AP.D-2",
+      "undated": "IHOS-123AP.D-2",
+      "allparts": "IHOS-123AP.D-2"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-124",
     "parseable": true,
     "canonical": "IHO S-124",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-124",
+      "undated": "IHOS-124",
+      "allparts": "IHOS-124"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-127",
     "parseable": true,
     "canonical": "IHO S-127",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-127",
+      "undated": "IHOS-127",
+      "allparts": "IHOS-127"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-128",
     "parseable": true,
     "canonical": "IHO S-128",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-128",
+      "undated": "IHOS-128",
+      "allparts": "IHOS-128"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-129",
     "parseable": true,
     "canonical": "IHO S-129",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-129",
+      "undated": "IHOS-129",
+      "allparts": "IHOS-129"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-12",
     "parseable": true,
     "canonical": "IHO S-12",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-12",
+      "undated": "IHOS-12",
+      "allparts": "IHOS-12"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-131",
     "parseable": true,
     "canonical": "IHO S-131",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-131",
+      "undated": "IHOS-131",
+      "allparts": "IHOS-131"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-158:101",
     "parseable": true,
     "canonical": "IHO S-158:101",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-158:101",
+      "undated": "IHOS-158:101",
+      "allparts": "IHOS-158:101"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-158:98",
     "parseable": true,
     "canonical": "IHO S-158:98",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-158:98",
+      "undated": "IHOS-158:98",
+      "allparts": "IHOS-158:98"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-164",
     "parseable": true,
     "canonical": "IHO S-164",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-164",
+      "undated": "IHOS-164",
+      "allparts": "IHOS-164"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-201",
     "parseable": true,
     "canonical": "IHO S-201",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-201",
+      "undated": "IHOS-201",
+      "allparts": "IHOS-201"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-240",
     "parseable": true,
     "canonical": "IHO S-240",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-240",
+      "undated": "IHOS-240",
+      "allparts": "IHOS-240"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-246",
     "parseable": true,
     "canonical": "IHO S-246",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-246",
+      "undated": "IHOS-246",
+      "allparts": "IHOS-246"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-32",
     "parseable": true,
     "canonical": "IHO S-32",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-32",
+      "undated": "IHOS-32",
+      "allparts": "IHOS-32"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-421",
     "parseable": true,
     "canonical": "IHO S-421",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-421",
+      "undated": "IHOS-421",
+      "allparts": "IHOS-421"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-44",
     "parseable": true,
     "canonical": "IHO S-44",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-44",
+      "undated": "IHOS-44",
+      "allparts": "IHOS-44"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-49",
     "parseable": true,
     "canonical": "IHO S-49",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-49",
+      "undated": "IHOS-49",
+      "allparts": "IHOS-49"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-4",
     "parseable": true,
     "canonical": "IHO S-4",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-4",
+      "undated": "IHOS-4",
+      "allparts": "IHOS-4"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-4 Part A",
     "parseable": true,
     "canonical": "IHO S-4 Part A",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-4PARTA",
+      "undated": "IHOS-4PARTA",
+      "allparts": "IHOS-4PARTA"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-4 Part C",
     "parseable": true,
     "canonical": "IHO S-4 Part C",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-4PARTC",
+      "undated": "IHOS-4PARTC",
+      "allparts": "IHOS-4PARTC"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-53",
     "parseable": true,
     "canonical": "IHO S-53",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-53",
+      "undated": "IHOS-53",
+      "allparts": "IHOS-53"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-53",
     "parseable": true,
     "canonical": "IHO S-53",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-53",
+      "undated": "IHOS-53",
+      "allparts": "IHOS-53"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-57",
     "parseable": true,
     "canonical": "IHO S-57",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-57",
+      "undated": "IHOS-57",
+      "allparts": "IHOS-57"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-58",
     "parseable": true,
     "canonical": "IHO S-58",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-58",
+      "undated": "IHOS-58",
+      "allparts": "IHOS-58"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-5B",
     "parseable": true,
     "canonical": "IHO S-5B",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-5B",
+      "undated": "IHOS-5B",
+      "allparts": "IHOS-5B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-61",
     "parseable": true,
     "canonical": "IHO S-61",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-61",
+      "undated": "IHOS-61",
+      "allparts": "IHOS-61"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-63",
     "parseable": true,
     "canonical": "IHO S-63",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-63",
+      "undated": "IHOS-63",
+      "allparts": "IHOS-63"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-64",
     "parseable": true,
     "canonical": "IHO S-64",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-64",
+      "undated": "IHOS-64",
+      "allparts": "IHOS-64"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-65 Ap. A",
     "parseable": true,
     "canonical": "IHO S-65 Ap. A",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-65AP.A",
+      "undated": "IHOS-65AP.A",
+      "allparts": "IHOS-65AP.A"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-65 Ap. B",
     "parseable": true,
     "canonical": "IHO S-65 Ap. B",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-65AP.B",
+      "undated": "IHOS-65AP.B",
+      "allparts": "IHOS-65AP.B"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-66",
     "parseable": true,
     "canonical": "IHO S-66",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-66",
+      "undated": "IHOS-66",
+      "allparts": "IHOS-66"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-66 Suppl 1",
     "parseable": true,
     "canonical": "IHO S-66 Suppl 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-66SUPPL1",
+      "undated": "IHOS-66SUPPL1",
+      "allparts": "IHOS-66SUPPL1"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-66 Suppl 3",
     "parseable": true,
     "canonical": "IHO S-66 Suppl 3",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-66SUPPL3",
+      "undated": "IHOS-66SUPPL3",
+      "allparts": "IHOS-66SUPPL3"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-67",
     "parseable": true,
     "canonical": "IHO S-67",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-67",
+      "undated": "IHOS-67",
+      "allparts": "IHOS-67"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-8A",
     "parseable": true,
     "canonical": "IHO S-8A",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-8A",
+      "undated": "IHOS-8A",
+      "allparts": "IHOS-8A"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-97",
     "parseable": true,
     "canonical": "IHO S-97",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-97",
+      "undated": "IHOS-97",
+      "allparts": "IHOS-97"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-98 Annex A",
     "parseable": true,
     "canonical": "IHO S-98 Annex A",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-98ANNEXA",
+      "undated": "IHOS-98ANNEXA",
+      "allparts": "IHOS-98ANNEXA"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-98 Annex C",
     "parseable": true,
     "canonical": "IHO S-98 Annex C",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-98ANNEXC",
+      "undated": "IHOS-98ANNEXC",
+      "allparts": "IHOS-98ANNEXC"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-98 Part B",
     "parseable": true,
     "canonical": "IHO S-98 Part B",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-98PARTB",
+      "undated": "IHOS-98PARTB",
+      "allparts": "IHOS-98PARTB"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-98 Part D",
     "parseable": true,
     "canonical": "IHO S-98 Part D",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-98PARTD",
+      "undated": "IHOS-98PARTD",
+      "allparts": "IHOS-98PARTD"
+    }
   },
   {
     "flavor": "iho",
     "input": "S-99",
     "parseable": true,
     "canonical": "IHO S-99",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IHOS-99",
+      "undated": "IHOS-99",
+      "allparts": "IHOS-99"
+    }
   },
   {
     "flavor": "itu",
     "input": "ITU-T G.7710/Y.1705 (2001)",
     "parseable": true,
     "canonical": "ITU-T G.7710/Y.1705 (2001)",
-    "year": "2001"
+    "year": "2001",
+    "keys": {
+      "norm": "ITU-TG.7710/Y.1705(2001)",
+      "undated": "ITU-TG.7710/Y.1705()",
+      "allparts": "ITU-TG.7710/Y.1705()"
+    }
   },
   {
     "flavor": "itu",
     "input": "ITU-T G.989.2",
     "parseable": true,
     "canonical": "ITU-T G.989.2",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ITU-TG.989.2",
+      "undated": "ITU-TG.989.2",
+      "allparts": "ITU-TG.989.2"
+    }
   },
   {
     "flavor": "itu",
     "input": "ITU-R V.574-5",
     "parseable": true,
     "canonical": "ITU-R V.574-5",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ITU-RV.574-5",
+      "undated": "ITU-RV.574-5",
+      "allparts": "ITU-RV.574-5"
+    }
   },
   {
     "flavor": "itu",
     "input": "ITU-T G.6501",
     "parseable": true,
     "canonical": "ITU-T G.6501",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ITU-TG.6501",
+      "undated": "ITU-TG.6501",
+      "allparts": "ITU-TG.6501"
+    }
   },
   {
     "flavor": "nist",
     "input": "NIST SP 800-53 Rev. 5",
     "parseable": true,
     "canonical": "NIST SP 800-53 Rev. 5",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "NISTSP800-53REV.5",
+      "undated": "NISTSP800-53REV.5",
+      "allparts": "NISTSP800-53REV.5"
+    }
   },
   {
     "flavor": "nist",
     "input": "NIST FIPS 140-3",
     "parseable": true,
     "canonical": "NIST FIPS 140-3",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "NISTFIPS140-3",
+      "undated": "NISTFIPS140-3",
+      "allparts": "NISTFIPS140-3"
+    }
   },
   {
     "flavor": "nist",
     "input": "NIST IR 8115",
     "parseable": true,
     "canonical": "NIST IR 8115",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "NISTIR8115",
+      "undated": "NISTIR8115",
+      "allparts": "NISTIR8115"
+    }
   },
   {
     "flavor": "nist",
     "input": "NBS CIRC 24e7sup",
     "parseable": true,
     "canonical": "NBS CIRC 24e7sup",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "NBSCIRC24E7SUP",
+      "undated": "NBSCIRC24E7SUP",
+      "allparts": "NBSCIRC24E7SUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC Directives Part 1",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1",
+      "undated": "ISO/IECDIR1",
+      "allparts": "ISO/IECDIR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR 1",
     "parseable": true,
     "canonical": "ISO/IEC DIR 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIR1",
+      "undated": "ISO/IECDIR1",
+      "allparts": "ISO/IECDIR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/IEC DIR IEC SUP",
     "parseable": true,
     "canonical": "ISO/IEC DIR IEC SUP",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IECDIRIECSUP",
+      "undated": "ISO/IECDIRIECSUP",
+      "allparts": "ISO/IECDIRIECSUP"
+    }
   },
   {
     "flavor": "iso",
     "input": "JCGM 200:2008",
     "parseable": true,
     "canonical": "JCGM 200:2008",
-    "year": "2008"
+    "year": "2008",
+    "keys": {
+      "norm": "JCGM200:2008",
+      "undated": "JCGM200",
+      "allparts": "JCGM200"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 2631/DAD 1",
     "parseable": true,
     "canonical": "ISO 2631/DAD 1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO2631/DAD1",
+      "undated": "ISO2631/DAD1",
+      "allparts": "ISO2631/DAD1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ИСО 639-1",
     "parseable": true,
     "canonical": "ISO 639-1",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO639-1",
+      "undated": "ISO639-1",
+      "allparts": "ISO639"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/AWI IWA 47",
     "parseable": true,
     "canonical": "AWI IWA 47",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "AWIIWA47",
+      "undated": "AWIIWA47",
+      "allparts": "AWIIWA47"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/CD 31010",
     "parseable": true,
     "canonical": "ISO/CD 31010",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/CD31010",
+      "undated": "ISO/CD31010",
+      "allparts": "ISO/CD31010"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/DIS 31010",
     "parseable": true,
     "canonical": "ISO/DIS 31010",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/DIS31010",
+      "undated": "ISO/DIS31010",
+      "allparts": "ISO/DIS31010"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/FDIS 9001",
     "parseable": true,
     "canonical": "ISO/FDIS 9001",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/FDIS9001",
+      "undated": "ISO/FDIS9001",
+      "allparts": "ISO/FDIS9001"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 9001:2015/Amd 1:2018",
     "parseable": true,
     "canonical": "ISO 9001:2015/Amd 1:2018",
-    "year": "2018"
+    "year": "2018",
+    "keys": {
+      "norm": "ISO9001:2015/AMD1:2018",
+      "undated": "ISO9001:2015/AMD1",
+      "allparts": "ISO9001:2015/AMD1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TS 8000-1:2019",
     "parseable": true,
     "canonical": "ISO/TS 8000-1:2019",
-    "year": "2019"
+    "year": "2019",
+    "keys": {
+      "norm": "ISO/TS8000-1:2019",
+      "undated": "ISO/TS8000-1",
+      "allparts": "ISO/TS8000"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/TR 17716",
     "parseable": true,
     "canonical": "ISO/TR 17716",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/TR17716",
+      "undated": "ISO/TR17716",
+      "allparts": "ISO/TR17716"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO/R 657-4:1969",
     "parseable": true,
     "canonical": "ISO/R 657-4:1969",
-    "year": "1969"
+    "year": "1969",
+    "keys": {
+      "norm": "ISO/R657-4:1969",
+      "undated": "ISO/R657-4",
+      "allparts": "ISO/R657"
+    }
   },
   {
     "flavor": "iso",
@@ -2677,55 +4582,95 @@
     "input": "ISO 19115-1:2014/Cor 1:2016",
     "parseable": true,
     "canonical": "ISO 19115-1:2014/Cor 1:2016",
-    "year": "2016"
+    "year": "2016",
+    "keys": {
+      "norm": "ISO19115-1:2014/COR1:2016",
+      "undated": "ISO19115-1:2014/COR1",
+      "allparts": "ISO19115-1:2014/COR1"
+    }
   },
   {
     "flavor": "iso",
     "input": "ISO 19115 (all parts)",
     "parseable": true,
     "canonical": "ISO 19115 (all parts)",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO19115(ALLPARTS)",
+      "undated": "ISO19115(ALLPARTS)",
+      "allparts": "ISO19115(ALLPARTS)"
+    }
   },
   {
     "flavor": "iec",
     "input": "IEC 61010-2-201:2015+AMD1:2018 CSV",
     "parseable": true,
     "canonical": "IEC 61010-2-201:2015+AMD1:2018 CSV",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "IEC61010-2-201:2015+AMD1:2018CSV",
+      "undated": "IEC61010-2-201+AMD1:2018CSV",
+      "allparts": "IEC61010-2-201+AMD1:2018CSV"
+    }
   },
   {
     "flavor": "iec",
     "input": "IEC 60285-/1:1989",
     "parseable": true,
     "canonical": "IEC 60285/1:1989",
-    "year": "1989"
+    "year": "1989",
+    "keys": {
+      "norm": "IEC60285/1:1989",
+      "undated": "IEC60285/1",
+      "allparts": "IEC60285/1"
+    }
   },
   {
     "flavor": "ieee",
     "input": "IEEE 802.3",
     "parseable": true,
     "canonical": "IEEE Std 802.3",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IEEESTD802.3",
+      "undated": "IEEESTD802.3",
+      "allparts": "IEEESTD802.3"
+    }
   },
   {
     "flavor": "ieee",
     "input": "IEEE Std 802.3-2015",
     "parseable": true,
     "canonical": "IEEE Std 802.3-2015",
-    "year": "2015"
+    "year": "2015",
+    "keys": {
+      "norm": "IEEESTD802.3-2015",
+      "undated": "IEEESTD802.3-",
+      "allparts": "IEEESTD802.3-"
+    }
   },
   {
     "flavor": "ieee",
     "input": "IEEE 11073-10101",
     "parseable": true,
     "canonical": "IEEE Std 11073-10101",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "IEEESTD11073-10101",
+      "undated": "IEEESTD11073-10101",
+      "allparts": "IEEESTD11073-10101"
+    }
   },
   {
     "flavor": "ieee",
     "input": "IEEE/ISO/IEC 8802-3",
     "parseable": true,
     "canonical": "ISO/IEC/IEEE 8802-3",
-    "year": null
+    "year": null,
+    "keys": {
+      "norm": "ISO/IEC/IEEE8802-3",
+      "undated": "ISO/IEC/IEEE8802-3",
+      "allparts": "ISO/IEC/IEEE8802-3"
+    }
   }
 ]
