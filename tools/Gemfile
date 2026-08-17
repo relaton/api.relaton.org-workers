@@ -2,14 +2,22 @@
 
 source "https://rubygems.org"
 
-if (local = ENV["RELATON_GEM"])
-  gem "relaton", path: local
-else
-  gem "relaton", "~> 2.1"
+# RELATON_GEM / PUBID_GEM accept:
+#   git:https://github.com/org/repo#branch-or-ref   (CI)
+#   /local/path                                      (local dev)
+# When unset, published gems are used — which currently lack the v3 APIs
+# the ingest tool needs (Relaton::Db::Registry, Bib::HashParserV1).
+def gem_from_env(name, env, default_constraint)
+  src = ENV[env]
+  if src&.start_with?("git:")
+    url, ref = src.delete_prefix("git:").split("#", 2)
+    gem name, git: url, ref: ref
+  elsif src
+    gem name, path: src
+  else
+    gem name, default_constraint
+  end
 end
 
-if (local = ENV["PUBID_GEM"])
-  gem "pubid", path: local
-else
-  gem "pubid"
-end
+gem_from_env("relaton", "RELATON_GEM", "~> 2.1")
+gem_from_env("pubid", "PUBID_GEM", "~> 1.15")
