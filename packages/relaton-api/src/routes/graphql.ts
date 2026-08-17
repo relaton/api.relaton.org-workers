@@ -2,7 +2,7 @@ import { createSchema, createYoga } from "graphql-yoga";
 import type { Context, Handler } from "hono";
 import type { AppEnv, Env } from "../env";
 import { findDocument, type DocumentRow } from "../lib/lookup";
-import { normKey } from "../lib/normalize";
+import { normKey } from "pubid-ts";
 
 const typeDefs = /* GraphQL */ `
   type Query {

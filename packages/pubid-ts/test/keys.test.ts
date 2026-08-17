@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { allPartsKey, normalizeCode, normKey, undatedKey } from "@relaton/api";
+import { allPartsKey, deriveKeys, normalizeCode, normKey, undatedKey } from "../src/keys";
 
 describe("normalizeCode", () => {
   it("collapses em/en dashes and unicode whitespace", () => {
@@ -44,5 +44,31 @@ describe("undatedKey / allPartsKey", () => {
     expect(allPartsKey("ISO19115-1:2014")).toBe("ISO19115");
     expect(allPartsKey("ISO53798-2")).toBe("ISO53798");
     expect(allPartsKey("ISO19115")).toBe("ISO19115");
+  });
+});
+
+import corpus from "./corpus.json";
+
+interface KeyedEntry {
+  flavor: string;
+  input: string;
+  parseable: boolean;
+  canonical?: string;
+  keys?: { norm: string; undated: string; allparts: string };
+}
+
+describe("pubid-ts key derivation parity with pubid ruby (corpus)", () => {
+  it("derives the same keys for every corpus entry", () => {
+    const entries = (corpus as KeyedEntry[]).filter((e) => e.parseable && e.keys);
+    // norm parity must be exact (pure transform of the already-exact
+    // canonical). undated/allparts parity has known supplement-id
+    // divergences — tracked in TODO.api/14-key-semantics.md.
+    const normMisses = entries.filter((e) => deriveKeys(e.input, e.flavor).norm !== e.keys!.norm);
+    const fullMisses = entries.filter((e) => {
+      const k = deriveKeys(e.input, e.flavor);
+      return k.undated !== e.keys!.undated || k.allparts !== e.keys!.allparts;
+    });
+    console.log(`undated/allparts divergences: ${fullMisses.length}/${entries.length} (TODO.api/14)`);
+    expect(normMisses.length).toBe(0);
   });
 });

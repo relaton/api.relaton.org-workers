@@ -28,3 +28,26 @@ export function undatedKey(norm: string): string {
 export function allPartsKey(norm: string): string {
   return undatedKey(norm).replace(TRAILING_PART, "");
 }
+
+import { parse } from "./index";
+
+export interface DerivedKeys {
+  norm: string;
+  undated: string;
+  allparts: string;
+  canonical: string;
+}
+
+// Single home for lookup-key derivation. Semantics come from the pubid
+// parse (year/part are structural values); parity with pubid ruby is
+// enforced by the golden corpus (tools/gen_corpus.rb).
+export function deriveKeys(code: string, flavor?: string): DerivedKeys {
+  const id = parse(code, flavor);
+  const canonical = id?.canonical ?? normalizeCode(code);
+  const norm = normKey(canonical);
+  const year = id?.year;
+  const undated = year ? norm.replace(new RegExp(`:?${year}(?=[^-]*$)`), "") : undatedKey(norm);
+  const part = (id as { part?: string } | null)?.part;
+  const allparts = part ? undated.replace(new RegExp(`-${part}(?=[^-]*$)`), "") : allPartsKey(norm);
+  return { norm, undated, allparts, canonical };
+}

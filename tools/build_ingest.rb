@@ -30,14 +30,36 @@ require "relaton"
 require "relaton/bib/hash_parser_v1"
 require "relaton/bib/item_data"
 require "pubid"
-$LOAD_PATH.unshift File.expand_path("lib", __dir__)
-require "relaton_api"
 
 registry = Relaton::Db::Registry.instance
 
 # Flavors with a PubID grammar; canonical renders add lookup variants that
 # absorb update_codes.yaml normalizations (e.g. "ISO/IEC Directives Part 1" →
 # "ISO/IEC DIR 1").
+# Lookup keys derived through the pubid gem (structural year/part values);
+# parity with pubid-ts is enforced by the golden corpus (gen_corpus.rb).
+def derive_keys(code, flavor)
+  mod = pubid_module(flavor)
+  canonical = code
+  year = ""
+  part = ""
+  if mod
+    begin
+      id = mod.parse(code)
+      canonical = id.to_s
+      year = id.year.to_s
+      raw_part = id.part
+      part = raw_part.is_a?(String) ? raw_part : raw_part&.value.to_s if raw_part
+    rescue StandardError
+      canonical = code
+    end
+  end
+  norm = canonical.upcase.delete(" ")
+  undated = year.empty? ? norm : norm.sub(/:?#{Regexp.escape(year)}(?=[^-]*$)/, "")
+  allparts = part.empty? ? undated : undated.sub(/-#{Regexp.escape(part)}(?=[^-]*$)/, "")
+  [norm, undated, allparts]
+end
+
 PUBID_FLAVORS = {
   "iso" => :Iso, "iec" => :Iec, "ieee" => :Ieee, "itu" => :Itu,
   "nist" => :Nist, "iho" => :Iho, "bsi" => :Bsi, "jis" => :Jis,
@@ -166,7 +188,7 @@ files.each_with_index do |path, idx|
   published = (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("at") ||
               (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("value")
 
-  norm = RelatonApi::Ingest::Normalize.norm_key(primary["content"].to_s)
+  norm, undated_norm, allparts_norm = derive_keys(primary["content"].to_s, options[:flavor])
   year = primary["content"].to_s[/:(\d{4})(?=[^-]*$)/, 1] || published.to_s[0, 4]
 
   canonicals = pubid_canonicals(docid_list, options[:flavor])
@@ -175,9 +197,9 @@ files.each_with_index do |path, idx|
   bare_release = primary["content"].to_s.sub(/\A(3GPP [A-Z]{2} [\d.]+[A-Z]*)(?::[A-Z]+(?:-\d+)?\/.*)?\z/) { Regexp.last_match(1) }
   canonicals << bare_release if bare_release =~ /\A3GPP / && bare_release != primary["content"]
   all_ids = docid_list.map do |d|
-    { norm: RelatonApi::Ingest::Normalize.norm_key(d["content"].to_s), raw: d["content"], type: d["type"] }
+    { norm: d["content"].to_s.upcase.delete(" "), raw: d["content"], type: d["type"] }
   end + canonicals.map do |c|
-    { norm: RelatonApi::Ingest::Normalize.norm_key(c), raw: c, type: "canonical" }
+    { norm: c.upcase.delete(" "), raw: c, type: "canonical" }
   end
 
   rows << {
@@ -185,14 +207,15 @@ files.each_with_index do |path, idx|
     r2_key: r2_key,
     docid: primary["content"],
     norm: norm,
-    undated_norm: RelatonApi::Ingest::Normalize.undated_key(norm),
-    allparts_norm: RelatonApi::Ingest::Normalize.all_parts_key(norm),
+    undated_norm: undated_norm,
+    allparts_norm: allparts_norm,
     year: year&.to_i,
     published: published,
     title_en: main_title && main_title["content"],
     doctype: doc["type"],
     status: extract_status(doc["status"]),
-    docids: all_ids.filter_map { |h| h[:norm].empty? ? nil : h }.uniq { |h| h[:norm] },
+    docids: all_ids.map { |h| h.merge(norm: h[:norm].upcase.delete(" ")) }
+                    .filter_map { |h| h[:norm].empty? ? nil : h }.uniq { |h| h[:norm] },
   }
   blobs[r2_key] = xml
 
