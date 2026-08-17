@@ -27,7 +27,10 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           working-directory: tools
-          bundler-cache: true
+          bundler-cache: false
+      - name: Bundle install
+        working-directory: tools
+        run: bundle install
       - name: Build chunks
         working-directory: tools
         env:
