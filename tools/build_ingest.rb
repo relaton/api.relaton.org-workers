@@ -55,7 +55,7 @@ def derive_keys(code, flavor)
     end
   end
   norm = canonical.upcase.delete(" ")
-  undated = year.empty? ? norm : norm.sub(/:?#{Regexp.escape(year)}(?=[^-]*$)/, "")
+  undated = norm.gsub(/:?(?:19|20)\d{2}(?=[^-]*$)/, "")
   allparts = part.empty? ? undated : undated.sub(/-#{Regexp.escape(part)}(?=[^-]*$)/, "")
   [norm, undated, allparts]
 end

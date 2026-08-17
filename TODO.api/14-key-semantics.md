@@ -1,4 +1,10 @@
-# 14 — Key-derivation semantics for supplements (pubid ruby ↔ pubid-ts)
+# 14 — Key-derivation semantics (pubid ruby ↔ pubid-ts) — RESOLVED
+
+Semantics decided and corpus-pinned at 0/389 misses:
+- undated drops EVERY colon-year (base and supplement)
+- allparts strips the trailing part only when pubid parsed it
+  (structural; a trailing "-05" is a date day, not a part)
+
 
 The corpus now pins lookup KEYS (norm/undated/allparts) computed through
 pubid ruby structurally — the old cross-language "mirror" modules are gone
@@ -12,14 +18,9 @@ Known divergence (4/389 corpus entries, all supplement ids):
 - `ISO 1942-4:1989/CD Amd 2` — staged supplement with no own year: TS
   over-strips the base year in `undated`; ruby leaves it.
 
-## Tasks
+## Done
 
-- [ ] Decide semantics from the pubid model structure: `id.base.year` vs
-      supplement year; part belongs to the base identifier.
-- [ ] Encode once in pubid ruby's corpus generator; tighten the pubid-ts
-      parity gate to 100%.
-- [ ] Re-generate affected D1 rows (iso supplements) via one ingest pass.
-
-## Acceptance
-
-keys.test.ts parity gate at exactly 0 misses.
+- [x] Semantics encoded in gen_corpus.rb (ruby) and keys.ts deriveKeys (TS)
+- [x] keys.test.ts parity gate: exactly 0 misses
+- [ ] One re-ingest pass for affected D1 rows (iso supplements) — rides
+      with 02 storage v2 re-ingest

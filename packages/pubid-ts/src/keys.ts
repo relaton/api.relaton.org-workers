@@ -45,9 +45,17 @@ export function deriveKeys(code: string, flavor?: string): DerivedKeys {
   const id = parse(code, flavor);
   const canonical = id?.canonical ?? normalizeCode(code);
   const norm = normKey(canonical);
-  const year = id?.year;
-  const undated = year ? norm.replace(new RegExp(`:?${year}(?=[^-]*$)`), "") : undatedKey(norm);
+  // undated drops EVERY colon-year (base and supplement alike);
+  // allparts additionally drops the trailing part. One rule, mirrored
+  // in tools/gen_corpus.rb and pinned by the corpus tests.
+  const undated = norm.replace(/:?(?:19|20)\d{2}(?=[^-]*$)/g, "");
   const part = (id as { part?: string } | null)?.part;
-  const allparts = part ? undated.replace(new RegExp(`-${part}(?=[^-]*$)`), "") : allPartsKey(norm);
+  // Part stripping is structural: only a parsed part is stripped. The
+  // regex fallback runs solely for codes pubid could not parse — a
+  // trailing "-05" is a date day, not a part.
+  const allparts = part
+    ? undated.replace(new RegExp(`-${part}(?=[^-]*$)`), "")
+    : id ? undated
+    : allPartsKey(undated);
   return { norm, undated, allparts, canonical };
 }
