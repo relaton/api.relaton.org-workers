@@ -93,7 +93,8 @@ end
 # Docs whose prefix no flavor processor claims use the generic Bib model.
 def xml_for(doc, text, processor, path)
   if path.end_with?(".xml")
-    processor.from_xml(text).to_xml(bibdata: true)
+    require "relaton/ietf/bibxml_parser"
+    Relaton::Ietf::BibXMLParser.parse(text).to_xml(bibdata: true)
   elsif doc["docid"]
     bib_hash = Relaton::Bib::HashParserV1.hash_to_bib(doc)
     Relaton::Bib::ItemData.new(**bib_hash).to_xml(bibdata: true)
@@ -163,6 +164,10 @@ files.each_with_index do |path, idx|
   year = primary["content"].to_s[/:(\d{4})(?=[^-]*$)/, 1] || published.to_s[0, 4]
 
   canonicals = pubid_canonicals(docid_list, options[:flavor])
+  # 3GPP ids carry release/series suffixes (":REL-19/19.0.0", ":UMTS/3.0.0");
+  # index the bare form too so "3GPP TS 23.040" resolves to the latest release.
+  bare_release = primary["content"].to_s.sub(/\A(3GPP [A-Z]{2} [\d.]+[A-Z]*)(?::[A-Z]+(?:-\d+)?\/.*)?\z/) { Regexp.last_match(1) }
+  canonicals << bare_release if bare_release =~ /\A3GPP / && bare_release != primary["content"]
   all_ids = docid_list.map do |d|
     { norm: Ingest::Normalize.norm_key(d["content"].to_s), raw: d["content"], type: d["type"] }
   end + canonicals.map do |c|
