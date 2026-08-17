@@ -103,8 +103,8 @@
     "year": "2025",
     "keys": {
       "norm": "ISO11970:2025",
-      "undated": "ISO11970",
-      "allparts": "ISO11970"
+      "undated": "ISO1",
+      "allparts": "ISO1"
     }
   },
   {
@@ -307,8 +307,8 @@
     "year": null,
     "keys": {
       "norm": "ISO1942-4:1989/CDAMD2",
-      "undated": "ISO1942-4:1989/CDAMD2",
-      "allparts": "ISO1942-4:1989/CDAMD2"
+      "undated": "ISO1942-4/CDAMD2",
+      "allparts": "ISO1942/CDAMD2"
     }
   },
   {
@@ -331,8 +331,8 @@
     "year": "2020",
     "keys": {
       "norm": "ISO20695:2020",
-      "undated": "ISO20695",
-      "allparts": "ISO20695"
+      "undated": "ISO5",
+      "allparts": "ISO5"
     }
   },
   {
@@ -631,8 +631,8 @@
     "year": "2016",
     "keys": {
       "norm": "ISO668:2013/AMD1:2016",
-      "undated": "ISO668:2013/AMD1",
-      "allparts": "ISO668:2013/AMD1"
+      "undated": "ISO668/AMD1",
+      "allparts": "ISO668/AMD1"
     }
   },
   {
@@ -655,8 +655,8 @@
     "year": "2024",
     "keys": {
       "norm": "ISO7010:2019/AMD8:2024",
-      "undated": "ISO7010:2019/AMD8",
-      "allparts": "ISO7010:2019/AMD8"
+      "undated": "ISO7010/AMD8",
+      "allparts": "ISO7010/AMD8"
     }
   },
   {
@@ -751,8 +751,8 @@
     "year": "2024",
     "keys": {
       "norm": "ISO9:1995/AMD1:2024",
-      "undated": "ISO9:1995/AMD1",
-      "allparts": "ISO9:1995/AMD1"
+      "undated": "ISO9/AMD1",
+      "allparts": "ISO9/AMD1"
     }
   },
   {
@@ -811,8 +811,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/AWITR19672",
-      "undated": "ISO/AWITR19672",
-      "allparts": "ISO/AWITR19672"
+      "undated": "ISO/AWITR2",
+      "allparts": "ISO/AWITR2"
     }
   },
   {
@@ -883,8 +883,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/CDTS19673.2",
-      "undated": "ISO/CDTS19673.2",
-      "allparts": "ISO/CDTS19673.2"
+      "undated": "ISO/CDTS3.2",
+      "allparts": "ISO/CDTS3.2"
     }
   },
   {
@@ -967,8 +967,8 @@
     "year": "1996",
     "keys": {
       "norm": "ISO/IEC11172-2:1993/COR1:1996",
-      "undated": "ISO/IEC11172-2:1993/COR1",
-      "allparts": "ISO/IEC11172-2:1993/COR1"
+      "undated": "ISO/IEC11172-2/COR1",
+      "allparts": "ISO/IEC11172/COR1"
     }
   },
   {
@@ -979,8 +979,8 @@
     "year": "2011",
     "keys": {
       "norm": "ISO/IEC14443-3:2011/AMD1:2011",
-      "undated": "ISO/IEC14443-3/AMD1:2011",
-      "allparts": "ISO/IEC14443-3/AMD1:2011"
+      "undated": "ISO/IEC14443-3/AMD1",
+      "allparts": "ISO/IEC14443/AMD1"
     }
   },
   {
@@ -1027,8 +1027,8 @@
     "year": "2015",
     "keys": {
       "norm": "ISO/IEC23009-1:2014/AMD1:2015",
-      "undated": "ISO/IEC23009-1:2014/AMD1",
-      "allparts": "ISO/IEC23009-1:2014/AMD1"
+      "undated": "ISO/IEC23009-1/AMD1",
+      "allparts": "ISO/IEC23009/AMD1"
     }
   },
   {
@@ -1063,8 +1063,8 @@
     "year": "2010",
     "keys": {
       "norm": "ISO/IEC9075-10:2008/COR1:2010",
-      "undated": "ISO/IEC9075-10:2008/COR1",
-      "allparts": "ISO/IEC9075-10:2008/COR1"
+      "undated": "ISO/IEC9075-10/COR1",
+      "allparts": "ISO/IEC9075/COR1"
     }
   },
   {
@@ -1075,8 +1075,8 @@
     "year": "1998",
     "keys": {
       "norm": "ISO/IEC9596-2:1993/COR3:1998",
-      "undated": "ISO/IEC9596-2:1993/COR3",
-      "allparts": "ISO/IEC9596-2:1993/COR3"
+      "undated": "ISO/IEC9596-2/COR3",
+      "allparts": "ISO/IEC9596/COR3"
     }
   },
   {
@@ -1123,8 +1123,8 @@
     "year": "2009",
     "keys": {
       "norm": "ISO/IECTR15938-8:2002/AMD4:2009",
-      "undated": "ISO/IECTR15938-8:2002/AMD4",
-      "allparts": "ISO/IECTR15938-8:2002/AMD4"
+      "undated": "ISO/IECTR15938-8/AMD4",
+      "allparts": "ISO/IECTR15938/AMD4"
     }
   },
   {
@@ -1303,8 +1303,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/TR23455:2019/FDCOR1",
-      "undated": "ISO/TR23455:2019/FDCOR1",
-      "allparts": "ISO/TR23455:2019/FDCOR1"
+      "undated": "ISO/TR23455/FDCOR1",
+      "allparts": "ISO/TR23455/FDCOR1"
     }
   },
   {
@@ -1363,8 +1363,8 @@
     "year": "2023",
     "keys": {
       "norm": "ISO/TS21957:2023",
-      "undated": "ISO/TS21957",
-      "allparts": "ISO/TS21957"
+      "undated": "ISO/TS2",
+      "allparts": "ISO/TS2"
     }
   },
   {
@@ -1411,8 +1411,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/WD19736",
-      "undated": "ISO/WD19736",
-      "allparts": "ISO/WD19736"
+      "undated": "ISO/WD6",
+      "allparts": "ISO/WD6"
     }
   },
   {
@@ -1507,8 +1507,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/IECDIR1+IECSUP:2021",
-      "undated": "ISO/IECDIR1+IECSUP:2021",
-      "allparts": "ISO/IECDIR1+IECSUP:2021"
+      "undated": "ISO/IECDIR1+IECSUP",
+      "allparts": "ISO/IECDIR1+IECSUP"
     }
   },
   {
@@ -1519,8 +1519,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/IECDIR1+IECSUP:2022",
-      "undated": "ISO/IECDIR1+IECSUP:2022",
-      "allparts": "ISO/IECDIR1+IECSUP:2022"
+      "undated": "ISO/IECDIR1+IECSUP",
+      "allparts": "ISO/IECDIR1+IECSUP"
     }
   },
   {
@@ -1531,8 +1531,8 @@
     "year": null,
     "keys": {
       "norm": "ISO/IECDIR1+IECSUP:2023",
-      "undated": "ISO/IECDIR1+IECSUP:2023",
-      "allparts": "ISO/IECDIR1+IECSUP:2023"
+      "undated": "ISO/IECDIR1+IECSUP",
+      "allparts": "ISO/IECDIR1+IECSUP"
     }
   },
   {
@@ -4531,8 +4531,8 @@
     "year": "2018",
     "keys": {
       "norm": "ISO9001:2015/AMD1:2018",
-      "undated": "ISO9001:2015/AMD1",
-      "allparts": "ISO9001:2015/AMD1"
+      "undated": "ISO9001/AMD1",
+      "allparts": "ISO9001/AMD1"
     }
   },
   {
@@ -4585,8 +4585,8 @@
     "year": "2016",
     "keys": {
       "norm": "ISO19115-1:2014/COR1:2016",
-      "undated": "ISO19115-1:2014/COR1",
-      "allparts": "ISO19115-1:2014/COR1"
+      "undated": "ISO19115-1/COR1",
+      "allparts": "ISO19115/COR1"
     }
   },
   {
@@ -4597,8 +4597,8 @@
     "year": null,
     "keys": {
       "norm": "ISO19115(ALLPARTS)",
-      "undated": "ISO19115(ALLPARTS)",
-      "allparts": "ISO19115(ALLPARTS)"
+      "undated": "ISO5(ALLPARTS)",
+      "allparts": "ISO5(ALLPARTS)"
     }
   },
   {
@@ -4609,8 +4609,8 @@
     "year": "2015",
     "keys": {
       "norm": "IEC61010-2-201:2015+AMD1:2018CSV",
-      "undated": "IEC61010-2-201+AMD1:2018CSV",
-      "allparts": "IEC61010-2-201+AMD1:2018CSV"
+      "undated": "IEC61010-2-201+AMD1CSV",
+      "allparts": "IEC61010-2-201+AMD1CSV"
     }
   },
   {

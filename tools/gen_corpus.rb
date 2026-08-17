@@ -103,11 +103,10 @@ corpus = inputs.filter_map do |s|
   end
   canonical = id.to_s
   norm = canonical.upcase.delete(" ")
-  year = id.year.to_s
-  undated = year.empty? ? norm : norm.sub(/:?#{Regexp.escape(year)}(?=[^-]*$)/, "")
+  undated = norm.gsub(/:?(?:19|20)\d{2}(?=[^-]*$)/, "")
   raw_part = nil
   begin
-    raw_part = id.part
+    raw_part = id.part || (id.base && id.base.part)
   rescue NoMethodError
     nil
   end
