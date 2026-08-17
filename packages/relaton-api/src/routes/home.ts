@@ -10,7 +10,7 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-export async function renderHome(db: D1Database, version: string): Promise<string> {
+export async function renderHome(db: D1Database, version: string, name = "Relaton API"): Promise<string> {
   const { results } = await db
     .prepare(
       `SELECT d.flavor, COUNT(*) AS doc_count, MAX(f.ingested_at) AS ingested_at
@@ -92,7 +92,7 @@ export async function renderHome(db: D1Database, version: string): Promise<strin
 </head>
 <body>
 <main>
-  <h1>Relaton API</h1>
+  <h1>${escapeHtml(name)}</h1>
   <p class="tagline">Bibliographic data for technical standards, aggregated across the
   <a href="https://github.com/relaton" rel="noopener">relaton-data-*</a> repositories. Read-only, no authentication.</p>
   <p class="stats"><b>${flavors.length} flavors</b> · <b>${total.toLocaleString("en-US")} documents</b> indexed${lastIngest ? ` · last ingest ${escapeHtml(lastIngest.slice(0, 10))}` : ""} · release ${escapeHtml(version)}</p>

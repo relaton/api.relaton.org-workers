@@ -30,7 +30,8 @@ require "relaton"
 require "relaton/bib/hash_parser_v1"
 require "relaton/bib/item_data"
 require "pubid"
-require_relative "normalize"
+$LOAD_PATH.unshift File.expand_path("lib", __dir__)
+require "relaton_api"
 
 registry = Relaton::Db::Registry.instance
 
@@ -165,7 +166,7 @@ files.each_with_index do |path, idx|
   published = (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("at") ||
               (doc["date"] || []).find { |d| d["type"] == "published" }&.[]("value")
 
-  norm = Ingest::Normalize.norm_key(primary["content"].to_s)
+  norm = RelatonApi::Ingest::Normalize.norm_key(primary["content"].to_s)
   year = primary["content"].to_s[/:(\d{4})(?=[^-]*$)/, 1] || published.to_s[0, 4]
 
   canonicals = pubid_canonicals(docid_list, options[:flavor])
@@ -174,9 +175,9 @@ files.each_with_index do |path, idx|
   bare_release = primary["content"].to_s.sub(/\A(3GPP [A-Z]{2} [\d.]+[A-Z]*)(?::[A-Z]+(?:-\d+)?\/.*)?\z/) { Regexp.last_match(1) }
   canonicals << bare_release if bare_release =~ /\A3GPP / && bare_release != primary["content"]
   all_ids = docid_list.map do |d|
-    { norm: Ingest::Normalize.norm_key(d["content"].to_s), raw: d["content"], type: d["type"] }
+    { norm: RelatonApi::Ingest::Normalize.norm_key(d["content"].to_s), raw: d["content"], type: d["type"] }
   end + canonicals.map do |c|
-    { norm: Ingest::Normalize.norm_key(c), raw: c, type: "canonical" }
+    { norm: RelatonApi::Ingest::Normalize.norm_key(c), raw: c, type: "canonical" }
   end
 
   rows << {
@@ -184,8 +185,8 @@ files.each_with_index do |path, idx|
     r2_key: r2_key,
     docid: primary["content"],
     norm: norm,
-    undated_norm: Ingest::Normalize.undated_key(norm),
-    allparts_norm: Ingest::Normalize.all_parts_key(norm),
+    undated_norm: RelatonApi::Ingest::Normalize.undated_key(norm),
+    allparts_norm: RelatonApi::Ingest::Normalize.all_parts_key(norm),
     year: year&.to_i,
     published: published,
     title_en: main_title && main_title["content"],
