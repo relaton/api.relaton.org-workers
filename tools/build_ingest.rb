@@ -107,15 +107,20 @@ def xml_for(doc, text, processor, path)
 end
 
 # Extracts index metadata from IETF bibxml (<reference>) files.
+# Every RFC/BCP/STD/FYI seriesInfo is indexed as a lookup variant
+# (e.g. "RFC 3986" is also "STD 66").
 def ietf_xml_meta(text)
   anchor = text[/anchor=['"]([^'"]+)['"]/, 1]
-  series = text[/seriesInfo\s+name=['"](?:RFC|BCP|STD|FYI)['"]\s+value=['"]([^'"]+)['"]/i, 1] ||
-           text[/seriesInfo\s+value=['"]([^'"]+)['"]\s+name=['"](?:RFC|BCP|STD|FYI)['"]/i, 1]
-  name = text[/seriesInfo\s+name=['"](RFC|BCP|STD|FYI)['"]/i, 1]
-  value = series || (anchor&.split(".")&.first)
-  docid = name && value ? "#{name.upcase} #{value}" : anchor.to_s
+  ids = text.scan(/seriesInfo\s+name=['"](RFC|BCP|STD|FYI)['"]\s+value=['"]([^'"]+)['"]/i)
+            .map { |n, v| "#{n.upcase} #{v}" }
+  ids += text.scan(/seriesInfo\s+value=['"]([^'"]+)['"]\s+name=['"](RFC|BCP|STD|FYI)['"]/i)
+              .map { |v, n| "#{n.upcase} #{v}" }
+  ids << anchor.to_s if ids.empty? && anchor && !anchor.empty?
+  primary_id = ids.find { |i| i.start_with?("RFC ") } || ids.first
   {
-    "docidentifier" => [{ "content" => docid.empty? ? nil : docid, "type" => "IETF", "primary" => true }],
+    "docidentifier" => ids.uniq.map do |d|
+      { "content" => d, "type" => "IETF", "primary" => d == primary_id }
+    end,
     "title" => [{ "content" => text[/<title[^>]*>([^<]+)<\/title>/m, 1]&.strip, "type" => "main" }],
     "date" => [{ "type" => "published", "at" => text[/<date[^>]*\syear=['"](\d{4})['"]/i, 1] }],
     "type" => "standard",
