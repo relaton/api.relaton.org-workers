@@ -5,7 +5,7 @@ Production never changes worker/route during the migration.
 
 ## Tasks
 
-- [ ] `relaton/relaton-api-js`: rename of api.relaton.org-workers once 07
+- [ ] `relaton/relaton-api-js`: rename of relaton-api-js once 07
       ships a stable alpha; PRs #1/#2 land here; publishes @relaton/api.
 - [ ] `relaton/relaton-api-ruby`: create; `git subtree split -P lib` (and
       `spec/`) from relaton/api.relaton.org pushed as founding history;
